@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  attr_accessible :name, :email, :password, :password_confirmation
   has_many :posts, dependent: :destroy
   has_many :readings, foreign_key: "post_id", dependent: :destroy
   before_save { self.email = email.downcase }
