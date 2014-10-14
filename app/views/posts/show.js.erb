@@ -1,1 +1,3 @@
 $('#content_<%= params[:id] %>').show();
+$('#read_count').html('<%= @user.readings.count %>');
+$('#unread_count').html('<%= @post_count - @user.readings.count %>');

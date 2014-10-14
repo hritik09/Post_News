@@ -9,7 +9,7 @@ class Post < ActiveRecord::Base
   def self.from_users_read_posts(user)
     read_post_ids = "SELECT post_id FROM readings
                          WHERE user_id = :user_id"
-    where("posts.id = (#{read_post_ids})",
+    where("posts.id IN (#{read_post_ids})",
           user_id: user.id)
   end
 
@@ -22,6 +22,6 @@ class Post < ActiveRecord::Base
 
   def self.all_rows
     post_ids = "SELECT id FROM posts"
-    where("posts.id = (#{post_ids})")
+    where("posts.id IN (#{post_ids})")
   end
 end
