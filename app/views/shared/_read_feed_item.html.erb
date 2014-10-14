@@ -1,0 +1,8 @@
+<li id="<%= read_feed_item.id %>">
+    <span class="title"><b><%= read_feed_item.title %></b></span>
+    <span id='content_<%= read_feed_item.id %>' class="content" style="display:none;"><%= read_feed_item.content %></span>
+    <span class="timestamp">
+      Posted <%= time_ago_in_words(read_feed_item.created_at) %> ago.
+    </span>
+    <%= link_to "show", read_feed_item, remote: true, data: {id: read_feed_item.id} %>
+</li>

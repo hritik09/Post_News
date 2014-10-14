@@ -1,0 +1,17 @@
+<% @user ||= current_user %>
+<div class="stats">
+  <a href="<%= read_user_path(@user) %>">
+    <strong id="read_count" class="stat">
+      <%= @user.readings.count %>
+    </strong>
+    Read Posts
+  </a>
+  <% if @post_count %>
+  <a href="<%= unread_user_path(@user) %>">
+    <strong id="unread_count" class="stat">
+      <%= @post_count - @user.readings.count %>
+    </strong>
+    Unread Posts
+  </a>
+  <% end %>
+</div>

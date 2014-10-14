@@ -1,0 +1,112 @@
+.body {
+				background-color:#c0c0c0;
+			}
+			
+			#div_main {
+				padding:6px;
+				width:295px;
+				border-top: solid #ffffff;
+				border-left: solid #ffffff;
+				border-right:solid #7b7b7b;
+				border-bottom:solid #7b7b7b;
+			}
+			
+			.insidePanel {
+					
+				border-top: solid #7b7b7b;
+				border-left: solid #7b7b7b;
+				border-right:solid #ffffff;
+				border-bottom:solid #ffffff;
+			}
+			
+			.buttonNormal{
+				
+				height:12px;
+				width:12px;
+				background-color:#bdbdbd;
+				border-top: solid 2px #ffffff;
+				border-left: solid 2px #ffffff;
+				border-right:solid 2px #7b7b7b;
+				border-bottom:solid 2px #7b7b7b;
+			}
+			
+			.buttonOpen{
+				height:14px;
+				width:14px;
+				border: solid 1px #7b7b7b;
+			}
+			
+			.button0{
+				
+			}
+			
+			.button1{
+				background-image:url('/gae_minesweeper/button1.png');
+			}
+			
+			.button2{
+				background-image:url('/gae_minesweeper/button2.png');
+			}
+			
+			.button3{
+				background-image:url('/gae_minesweeper/button3.png');
+			}
+			
+			.button4{
+				background-image:url('/gae_minesweeper/button4.png');
+			}
+			
+			.button5{
+				background-image:url('/gae_minesweeper/button5.png');
+			}
+			.button6{
+				background-image:url('/gae_minesweeper/button6.png');
+			}
+			
+			.button7{
+				background-image:url('/gae_minesweeper/button7.png');
+			}
+			
+			.button8{
+				background-image:url('/gae_minesweeper/button8.png');
+			}
+			
+			.buttonFlag{
+				background-image:url('/gae_minesweeper/flag.png');
+			}
+			
+			.buttonMine{
+				background-image:url('/gae_minesweeper/buttonRed.png');
+			}
+			
+			.moodButton{
+				background-color:#bdbdbd;
+				border-top: solid 2px #ffffff;
+				border-left: solid 2px #ffffff;
+				border-right:solid 2px #7b7b7b;
+				border-bottom:solid 2px #7b7b7b;
+				margin:auto;
+				height:22px;
+				width:22px;
+				
+			}
+			
+			.happy{
+				background-image:url('/gae_minesweeper/happy.png');
+				position:relative;
+				top:2px;
+				height:17px;
+				width:17px;
+				margin : auto;
+			}
+			
+			.happy:hover {
+				background-image:url('/gae_minesweeper/happyO.png');
+			}
+			
+			.topBar {
+				width:272px;
+				padding:6px;
+				margin-bottom:6px;
+				height:27px;
+			}
