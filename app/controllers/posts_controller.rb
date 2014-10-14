@@ -22,6 +22,8 @@ class PostsController < ApplicationController
   def show
     @reading = Reading.find_or_create_by(user_id: current_user.id, post_id: params[:id])
     @reading.save
+    @post_count = Post.count
+    @read_count = current_user.read_feed.count
     respond_to do |show|
       show.js {render layout: false}
     end

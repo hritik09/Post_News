@@ -19,10 +19,8 @@ class User < ActiveRecord::Base
     Digest::SHA1.hexdigest(token.to_s)
   end
 
-  def read?
-  end
-
-  def unread?
+  def total_feed
+    Post.all_rows(self)
   end
 
   def read_feed
