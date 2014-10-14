@@ -3,7 +3,6 @@ class ReadingsController < ApplicationController
 
   def create
     @newread = current_user.reading.build(params[:reading][:post_id])
-    end
   end
 
 end
