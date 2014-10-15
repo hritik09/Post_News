@@ -6,6 +6,8 @@ class PostsController < ApplicationController
   def create
     @post = current_user.posts.build(post_params)
     if @post.save
+      @reading = Reading.find_or_create_by(user_id: current_user.id, post_id: @post.id)
+      @reading.save
       flash[:success] = "post created!"
       redirect_to root_url
     else
