@@ -1,0 +1,203 @@
+2014-10-15T00:34:20.635805+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+2014-10-15T00:34:20.635814+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+2014-10-15T00:34:20.639452+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T00:34:20.639459+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T00:34:20.643677+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:34:20.643684+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:34:20.625118+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:34:20 +0000
+2014-10-15T00:34:20.646965+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T00:34:20.625126+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:34:20 +0000
+2014-10-15T00:34:20.646971+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T01:46:10.814769+00:00 heroku[web.1]: State changed from up to down
+2014-10-15T01:46:10.814234+00:00 heroku[web.1]: Idling
+2014-10-15T01:46:16.269135+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-15T01:46:18.802492+00:00 app[web.1]: [2014-10-15 01:46:18] ERROR SignalException: SIGTERM
+2014-10-15T01:46:18.802496+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-15T01:46:26.760414+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-15T01:46:26.760623+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-15T01:46:28.493009+00:00 heroku[web.1]: Process exited with status 137
+2014-10-15T03:50:40.806055+00:00 heroku[web.1]: Unidling
+2014-10-15T03:50:40.807160+00:00 heroku[web.1]: State changed from down to starting
+2014-10-15T03:50:43.310739+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 9391 -e production`
+2014-10-15T03:50:47.089382+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  WEBrick 1.3.1
+2014-10-15T03:50:47.089405+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-15T03:50:47.089771+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  WEBrick::HTTPServer#start: pid=2 port=9391
+2014-10-15T03:50:47.507387+00:00 heroku[web.1]: State changed from starting to up
+2014-10-15T03:50:48.869097+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=afc64819-43b3-4e21-954d-23e75cafc070 fwd="54.161.48.225" dyno=web.1 connect=1ms service=6ms status=301 bytes=234
+2014-10-15T03:50:49.042560+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=fe5b9e3b-54e6-42fd-a8db-cd23d901ad23 fwd="54.161.48.225" dyno=web.1 connect=1ms service=147ms status=200 bytes=2486
+2014-10-15T03:50:48.901652+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:9391
+2014-10-15T03:50:48.901647+00:00 app[web.1]: => Booting WEBrick
+2014-10-15T03:50:48.901654+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-15T03:50:48.901655+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-15T03:50:48.901657+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 03:50:48 +0000
+2014-10-15T03:50:48.901663+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 03:50:48 +0000
+2014-10-15T03:50:48.968842+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T03:50:48.968850+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T03:50:49.001235+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+2014-10-15T03:50:49.001241+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+2014-10-15T03:50:49.025439+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T03:50:49.025445+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T03:50:49.029644+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-15T03:50:49.029669+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-15T03:50:49.033006+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T03:50:49.033011+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T03:50:49.033292+00:00 app[web.1]: Completed 200 OK in 64ms (Views: 37.5ms | ActiveRecord: 23.7ms)
+2014-10-15T03:50:49.033297+00:00 app[web.1]: Completed 200 OK in 64ms (Views: 37.5ms | ActiveRecord: 23.7ms)
+2014-10-15T04:02:55.826483+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a74b5aa7-504b-478c-af16-88b5d9d5ce3e fwd="54.161.48.225" dyno=web.1 connect=2ms service=4ms status=301 bytes=234
+2014-10-15T04:02:55.890747+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=cc3f69ed-3a61-4def-b8d2-84044952a48f fwd="54.161.48.225" dyno=web.1 connect=1ms service=36ms status=200 bytes=2486
+2014-10-15T04:02:55.862753+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:02:55.864968+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:02:55.859301+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:02:55.864602+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:02:55.856270+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:02:55 +0000
+2014-10-15T04:02:55.865214+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 1.2ms)
+2014-10-15T04:02:55.862747+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:02:55.856281+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:02:55 +0000
+2014-10-15T04:02:55.864973+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:02:55.859306+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:02:55.863778+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T04:02:55.865240+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 1.2ms)
+2014-10-15T04:02:55.864606+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:02:55.863784+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T04:19:30.712283+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a76bd0a0-afba-4909-863b-db9acd0b5cc4 fwd="54.161.48.225" dyno=web.1 connect=1ms service=4ms status=301 bytes=234
+2014-10-15T04:19:30.753404+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=2829156c-1819-4ea9-bbc4-26103b184f6b fwd="54.161.48.225" dyno=web.1 connect=2ms service=12ms status=200 bytes=2486
+2014-10-15T04:19:30.748937+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:19:30.748943+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:19:30.749865+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:19:30.749871+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:19:30.750736+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:19:30.750741+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:19:30.742879+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:19:30 +0000
+2014-10-15T04:19:30.751162+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:19:30.742843+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:19:30 +0000
+2014-10-15T04:19:30.751167+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:19:30.745551+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:19:30.751407+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+2014-10-15T04:19:30.745558+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:19:30.751424+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.025332+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=7ecd35d4-9fe3-4138-9115-95d80547835c fwd="54.161.48.225" dyno=web.1 connect=1ms service=2ms status=301 bytes=234
+2014-10-15T04:28:49.059711+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:28:49.059717+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:28:49.058835+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+2014-10-15T04:28:49.055927+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:28:49.058829+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+2014-10-15T04:28:49.060501+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T04:28:49.055932+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:28:49.053791+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:28:49 +0000
+2014-10-15T04:28:49.060893+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:28:49.060898+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:28:49.061176+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.061181+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.060506+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T04:28:49.053865+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:28:49 +0000
+2014-10-15T04:28:49.063725+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=4c5969e0-582e-48d1-8a53-72baacd838f6 fwd="54.161.48.225" dyno=web.1 connect=1ms service=11ms status=200 bytes=2486
+2014-10-15T05:41:16.936823+00:00 heroku[web.1]: Idling
+2014-10-15T05:41:16.937335+00:00 heroku[web.1]: State changed from up to down
+2014-10-15T05:41:19.386778+00:00 app[web.1]: [2014-10-15 05:41:19] ERROR SignalException: SIGTERM
+2014-10-15T05:41:19.386783+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-15T05:41:18.904049+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-15T05:41:28.820358+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-15T05:41:28.820576+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-15T05:41:29.996859+00:00 heroku[web.1]: Process exited with status 137
+2014-10-15T00:34:20.635805+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+2014-10-15T00:34:20.635814+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+2014-10-15T00:34:20.639452+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T00:34:20.639459+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T00:34:20.643677+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:34:20.643684+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:34:20.625118+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:34:20 +0000
+2014-10-15T00:34:20.646965+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T00:34:20.625126+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:34:20 +0000
+2014-10-15T00:34:20.646971+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T01:46:10.814769+00:00 heroku[web.1]: State changed from up to down
+2014-10-15T01:46:10.814234+00:00 heroku[web.1]: Idling
+2014-10-15T01:46:16.269135+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-15T01:46:18.802492+00:00 app[web.1]: [2014-10-15 01:46:18] ERROR SignalException: SIGTERM
+2014-10-15T01:46:18.802496+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-15T01:46:26.760414+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-15T01:46:26.760623+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-15T01:46:28.493009+00:00 heroku[web.1]: Process exited with status 137
+2014-10-15T03:50:40.806055+00:00 heroku[web.1]: Unidling
+2014-10-15T03:50:40.807160+00:00 heroku[web.1]: State changed from down to starting
+2014-10-15T03:50:43.310739+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 9391 -e production`
+2014-10-15T03:50:47.089382+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  WEBrick 1.3.1
+2014-10-15T03:50:47.089405+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-15T03:50:47.089771+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  WEBrick::HTTPServer#start: pid=2 port=9391
+2014-10-15T03:50:47.507387+00:00 heroku[web.1]: State changed from starting to up
+2014-10-15T03:50:48.869097+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=afc64819-43b3-4e21-954d-23e75cafc070 fwd="54.161.48.225" dyno=web.1 connect=1ms service=6ms status=301 bytes=234
+2014-10-15T03:50:49.042560+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=fe5b9e3b-54e6-42fd-a8db-cd23d901ad23 fwd="54.161.48.225" dyno=web.1 connect=1ms service=147ms status=200 bytes=2486
+2014-10-15T03:50:48.901652+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:9391
+2014-10-15T03:50:48.901647+00:00 app[web.1]: => Booting WEBrick
+2014-10-15T03:50:48.901654+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-15T03:50:48.901655+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-15T03:50:48.901657+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 03:50:48 +0000
+2014-10-15T03:50:48.901663+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 03:50:48 +0000
+2014-10-15T03:50:48.968842+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T03:50:48.968850+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T03:50:49.001235+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+2014-10-15T03:50:49.001241+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+2014-10-15T03:50:49.025439+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T03:50:49.025445+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T03:50:49.029644+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-15T03:50:49.029669+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-15T03:50:49.033006+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T03:50:49.033011+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T03:50:49.033292+00:00 app[web.1]: Completed 200 OK in 64ms (Views: 37.5ms | ActiveRecord: 23.7ms)
+2014-10-15T03:50:49.033297+00:00 app[web.1]: Completed 200 OK in 64ms (Views: 37.5ms | ActiveRecord: 23.7ms)
+2014-10-15T04:02:55.826483+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a74b5aa7-504b-478c-af16-88b5d9d5ce3e fwd="54.161.48.225" dyno=web.1 connect=2ms service=4ms status=301 bytes=234
+2014-10-15T04:02:55.890747+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=cc3f69ed-3a61-4def-b8d2-84044952a48f fwd="54.161.48.225" dyno=web.1 connect=1ms service=36ms status=200 bytes=2486
+2014-10-15T04:02:55.862753+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:02:55.864968+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:02:55.859301+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:02:55.864602+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10
+-15T04:02:55.856270+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:02:55 +0000
+2014-10-15T04:02:55.865214+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 1.2ms)
+2014-10-15T04:02:55.862747+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:02:55.856281+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:02:55 +0000
+2014-10-15T04:02:55.864973+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:02:55.859306+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:02:55.863778+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T04:02:55.865240+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 1.2ms)
+2014-10-15T04:02:55.864606+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:02:55.863784+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T04:19:30.712283+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a76bd0a0-afba-4909-863b-db9acd0b5cc4 fwd="54.161.48.225" dyno=web.1 connect=1ms service=4ms status=301 bytes=234
+2014-10-15T04:19:30.753404+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=2829156c-1819-4ea9-bbc4-26103b184f6b fwd="54.161.48.225" dyno=web.1 connect=2ms service=12ms status=200 bytes=2486
+2014-10-15T04:19:30.748937+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:19:30.748943+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:19:30.749865+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:19:30.749871+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:19:30.750736+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:19:30.750741+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:19:30.742879+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:19:30 +0000
+2014-10-15T04:19:30.751162+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:19:30.742843+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:19:30 +0000
+2014-10-15T04:19:30.751167+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:19:30.745551+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:19:30.751407+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+2014-10-15T04:19:30.745558+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:19:30.751424+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.025332+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=7ecd35d4-9fe3-4138-9115-95d80547835c fwd="54.161.48.225" dyno=web.1 connect=1ms service=2ms status=301 bytes=234
+2014-10-15T04:28:49.059711+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:28:49.059717+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:28:49.058835+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+2014-10-15T04:28:49.055927+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:28:49.058829+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+2014-10-15T04:28:49.060501+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T04:28:49.055932+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:28:49.053791+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:28:49 +0000
+2014-10-15T04:28:49.060893+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:28:49.060898+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:28:49.061176+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.061181+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.060506+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T04:28:49.053865+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:28:49 +0000
+2014-10-15T04:28:49.063725+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=4c5969e0-582e-48d1-8a53-72baacd838f6 fwd="54.161.48.225" dyno=web.1 connect=1ms service=11ms status=200 bytes=2486
+2014-10-15T05:41:16.936823+00:00 heroku[web.1]: Idling
+2014-10-15T05:41:16.937335+00:00 heroku[web.1]: State changed from up to down
+2014-10-15T05:41:19.386778+00:00 app[web.1]: [2014-10-15 05:41:19] ERROR SignalException: SIGTERM
+2014-10-15T05:41:19.386783+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-15T05:41:18.904049+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-15T05:41:28.820358+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-15T05:41:28.820576+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-15T05:41:29.996859+00:00 heroku[web.1]: Process exited with status 137

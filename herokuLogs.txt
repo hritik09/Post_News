@@ -1,0 +1,1504 @@
+2014-10-14T20:14:40.955502+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-10-14T20:14:40.955484+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/index"):
+2014-10-14T20:14:40.955485+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-10-14T20:14:40.955486+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-10-14T20:14:40.955488+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:38:in `call_app'
+2014-10-14T20:14:40.955489+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `block in call'
+2014-10-14T20:14:40.955490+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2014-10-14T20:14:40.955491+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2014-10-14T20:14:40.955493+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2014-10-14T20:14:40.955494+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `call'
+2014-10-14T20:14:40.955495+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-10-14T20:14:40.955507+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+2014-10-14T20:14:40.955508+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-10-14T20:14:40.955509+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+2014-10-14T20:14:40.955499+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-10-14T20:14:40.955503+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2014-10-14T20:14:40.955500+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-10-14T20:14:40.955498+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-10-14T20:14:40.955496+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-10-14T20:14:40.955504+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/engine.rb:511:in `call'
+2014-10-14T20:14:40.955506+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/application.rb:97:in `call'
+2014-10-14T20:14:40.955513+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+2014-10-14T20:14:40.955514+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+2014-10-14T20:14:40.955515+00:00 app[web.1]: 
+2014-10-14T20:14:40.955516+00:00 app[web.1]: 
+2014-10-14T20:14:40.955511+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+2014-10-14T20:14:52.380990+00:00 heroku[router]: at=info method=GET path="/user/1" host=damp-reaches-6996.herokuapp.com request_id=50a3e17c-dcc1-46b1-9f2c-47530cd517f1 fwd="121.247.250.56" dyno=web.1 connect=0ms service=5ms status=404 bytes=1100
+2014-10-14T20:14:52.375522+00:00 app[web.1]: Started GET "/user/1" for 121.247.250.56 at 2014-10-14 20:14:52 +0000
+2014-10-14T20:14:52.375529+00:00 app[web.1]: Started GET "/user/1" for 121.247.250.56 at 2014-10-14 20:14:52 +0000
+2014-10-14T20:14:52.377452+00:00 app[web.1]: 
+2014-10-14T20:14:52.377456+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/user/1"):
+2014-10-14T20:14:52.377459+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-10-14T20:14:52.377482+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-10-14T20:14:52.377492+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2014-10-14T20:14:52.377494+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `call'
+2014-10-14T20:14:52.377495+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-10-14T20:14:52.377497+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-10-14T20:14:52.377498+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-10-14T20:14:52.377487+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `block in call'
+2014-10-14T20:14:52.377489+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2014-10-14T20:14:52.377491+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2014-10-14T20:14:52.377485+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:38:in `call_app'
+2014-10-14T20:14:52.377507+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/application.rb:97:in `call'
+2014-10-14T20:14:52.377500+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-10-14T20:14:52.377506+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/engine.rb:511:in `call'
+2014-10-14T20:14:52.377518+00:00 app[web.1]: 
+2014-10-14T20:14:52.377509+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+2014-10-14T20:14:52.377519+00:00 app[web.1]: 
+2014-10-14T20:14:52.377510+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-10-14T20:14:52.377525+00:00 app[web.1]: 
+2014-10-14T20:14:52.377514+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+2014-10-14T20:14:52.377501+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-10-14T20:14:52.377526+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/user/1"):
+2014-10-14T20:14:52.377503+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-10-14T20:14:52.377529+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-10-14T20:14:52.377504+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2014-10-14T20:14:52.377530+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:38:in `call_app'
+2014-10-14T20:14:52.377516+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+2014-10-14T20:14:52.377511+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+2014-10-14T20:14:52.377528+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-10-14T20:14:52.377513+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+2014-10-14T20:14:52.377531+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `block in call'
+2014-10-14T20:14:52.377535+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2014-10-14T20:14:52.377536+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `call'
+2014-10-14T20:14:52.377538+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-10-14T20:14:52.377550+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-10-14T20:14:52.377533+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2014-10-14T20:14:52.377545+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2014-10-14T20:14:52.377534+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2014-10-14T20:14:52.377546+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/engine.rb:511:in `call'
+2014-10-14T20:14:52.377548+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/application.rb:97:in `call'
+2014-10-14T20:14:52.377549+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+2014-10-14T20:14:52.377569+00:00 app[web.1]: 
+2014-10-14T20:14:52.377539+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-10-14T20:14:52.377564+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+2014-10-14T20:14:52.377540+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-10-14T20:14:52.377567+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+2014-10-14T20:14:52.377543+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-10-14T20:14:52.377551+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+2014-10-14T20:14:52.377541+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-10-14T20:14:52.377568+00:00 app[web.1]: 
+2014-10-14T20:14:52.377544+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/send
+file.rb:112:in `call'
+2014-10-14T20:14:52.377566+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+2014-10-14T20:14:55.906560+00:00 heroku[router]: at=info method=GET path="/user/1" host=damp-reaches-6996.herokuapp.com request_id=7644def2-0b12-43cc-990f-3ae4ae676fdd fwd="121.247.250.56" dyno=web.1 connect=2ms service=40ms status=404 bytes=1100
+2014-10-14T20:14:55.902010+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `block in call'
+2014-10-14T20:14:55.902049+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+2014-10-14T20:14:55.902074+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2014-10-14T20:14:55.902086+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/engine.rb:511:in `call'
+2014-10-14T20:14:55.902011+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2014-10-14T20:14:55.902056+00:00 app[web.1]: 
+2014-10-14T20:14:55.902078+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-10-14T20:14:55.902090+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-10-14T20:14:55.902013+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2014-10-14T20:14:55.902038+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-10-14T20:14:55.902046+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+2014-10-14T20:14:55.902071+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `block in call'
+2014-10-14T20:14:55.902083+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-10-14T20:14:55.902095+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+2014-10-14T20:14:55.900075+00:00 app[web.1]: Started GET "/user/1" for 121.247.250.56 at 2014-10-14 20:14:55 +0000
+2014-10-14T20:14:55.902014+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2014-10-14T20:14:55.902037+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-10-14T20:14:55.902040+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/engine.rb:511:in `call'
+2014-10-14T20:14:55.902044+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-10-14T20:14:55.902058+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/user/1"):
+2014-10-14T20:14:55.902079+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-10-14T20:14:55.902091+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+2014-10-14T20:14:55.900086+00:00 app[web.1]: Started GET "/user/1" for 121.247.250.56 at 2014-10-14 20:14:55 +0000
+2014-10-14T20:14:55.902034+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-10-14T20:14:55.902059+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-10-14T20:14:55.902080+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-10-14T20:14:55.902092+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+2014-10-14T20:14:55.902000+00:00 app[web.1]: 
+2014-10-14T20:14:55.902015+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `call'
+2014-10-14T20:14:55.902039+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2014-10-14T20:14:55.902043+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+2014-10-14T20:14:55.902050+00:00 app[web.1]: 
+2014-10-14T20:14:55.902075+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2014-10-14T20:14:55.902087+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/application.rb:97:in `call'
+2014-10-14T20:14:55.902004+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/user/1"):
+2014-10-14T20:14:55.902017+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-10-14T20:14:55.902042+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/application.rb:97:in `call'
+2014-10-14T20:14:55.902048+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+2014-10-14T20:14:55.902062+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:38:in `call_app'
+2014-10-14T20:14:55.902081+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-10-14T20:14:55.902094+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+2014-10-14T20:14:55.902006+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-10-14T20:14:55.902033+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-10-14T20:14:55.902052+00:00 app[web.1]: 
+2014-10-14T20:14:55.902076+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `call'
+2014-10-14T20:14:55.902089+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+2014-10-14T20:14:55.902007+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-10-14T20:14:55.902035+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-10-14T20:14:55.902060+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-10-14T20:14:55.902084+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-10-14T20:14:55.902097+00:00 app[web.1]: 
+2014-10-14T20:14:55.902009+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:38:in `call_app'
+2014-10-14T20:14:55.902047+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+2014-10-14T20:14:55.902073+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2014-10-14T20:14:55.902085+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2014-10-14T20:14:55.902096+00:00 app[web.1]: 
+2014-10-14T20:15:02.167401+00:00 app[web.1]: Started GET "/" for 121.247.250.56 at 2014-10-14 20:15:02 +0000
+2014-10-14T20:15:02.167416+00:00 app[web.1]: Started GET "/" for 121.247.250.56 at 2014-10-14 20:15:02 +0000
+2014-10-14T20:15:02.169972+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T20:15:02.169980+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T20:15:02.177545+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+2014-10-14T20:15:02.177567+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+2014-10-14T20:15:02.184651+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T20:15:02.184663+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T20:15:02.186116+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.3ms)
+2014-10-14T20:15:02.186690+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-10-14T20:15:02.186109+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.3ms)
+2014-10-14T20:15:02.186696+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-10-14T20:15:02.187133+00:00 app[web.1]: Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 1.3ms)
+2014-10-14T20:15:02.191064+00:00 app[web.1]: Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 1.3ms)
+2014-10-14T20:15:02.197961+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=15000cc9-c510-4276-a97f-d5cf99d8aaec fwd="121.247.250.56" dyno=web.1 connect=1ms service=30ms status=200 bytes=2438
+2014-10-14T20:31:25.935252+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=b5e873b4-d74c-4a7e-9f40-1f42943adef7 fwd="121.247.250.56" dyno=web.1 connect=1ms service=8ms status=304 bytes=178
+2014-10-14T20:31:25.937708+00:00 heroku[router]: at=info method=GET path="/signup" host=damp-reaches-6996.herokuapp.com request_id=ea851668-474a-4616-9fba-2bb070acfbdc fwd="121.247.250.56" dyno=web.1 connect=1ms service=24ms status=304 bytes=892
+2014-10-14T20:31:25.921261+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.4ms)
+2014-10-14T20:31:25.930786+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 1.9ms)
+2014-10-14T20:31:25.923483+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (4.6ms)
+2014-10-14T20:31:25.924865+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-14T20:31:25.921255+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.4ms)
+2014-10-14T20:31:25.930771+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 1.9ms)
+2014-10-14T20:31:25.923488+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (4.6ms)
+2014-10-14T20:31:25.916967+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T20:31:25.930501+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.5ms)
+2014-10-14T20:31:25.912854+00:00 app[web.1]: Started GET "/signup" for 121.247.250.56 at 2014-10-14 20:31:25 +0000
+2014-10-14T20:31:25.929256+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.5ms)
+2014-10-14T20:31:25.916972+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T20:31:25.930480+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.5ms)
+2014-10-14T20:31:25.912846+00:00 app[web.1]: Started GET "/signup" for 121.247.250.56 at 2014-10-14 20:31:25 +0000
+2014-10-14T20:31:25.929251+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.5ms)
+2014-10-14T20:31:25.924861+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-14T20:31:26.252400+00:00 heroku[router]: at=info method=GET path="/signup" host=damp-reaches-6996.herokuapp.com request_id=4164c73c-822d-413b-b827-57a6c2051291 fwd="121.247.250.56" dyno=web.1 connect=2ms service=19ms status=304 bytes=892
+2014-10-14T20:31:26.239176+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T20:31:26.239180+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T20:31:26.234816+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T20:31:26.241321+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.0ms)
+2014-10-14T20:31:26.241325+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.0ms)
+2014-10-14T20:31:26.234828+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T20:31:26.241666+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T20:31:26.232892+00:00 app[web.1]: Started GET "/signup" for 121.247.250.56 at 2014-10-14 20:31:26 +0000
+2014-10-14T20:31:26.241669+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T20:31:26.232899+00:00 app[web.1]: Started GET "/signup" for 121.247.250.56 at 2014-10-14 20:31:26 +0000
+2014-10-14T20:31:26.241838+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 1.1ms)
+2014-10-14T20:31:26.238640+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (2.9ms)
+2014-10-14T20:31:26.236455+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T20:31:26.241856+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 1.1ms)
+2014-10-14T20:31:26.238635+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (2.9ms)
+2014-10-14T20:31:26.236460+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T20:31:27.045430+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=76a54c39-b560-4c5e-9735-1e543a6805e9 fwd="121.247.250.56" dyno=web.1 connect=3ms service=6ms status=304 bytes=178
+2014-10-14T20:31:27.076899+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=a99f922b-0323-49af-bcb1-7493fce2bbc5 fwd="121.247.250.56" dyno=web.1 connect=5ms service=6ms status=304 bytes=178
+2014-10-14T20:32:19.993255+00:00 heroku[router]: at=info method=POST path="/users" host=damp-reaches-6996.herokuapp.com request_id=80fee28f-bbbf-4836-8f09-aaf0e0c2fae0 fwd="121.247.250.56" dyno=web.1 connect=3ms service=70ms status=200 bytes=3888
+2014-10-14T20:32:19.983785+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (3.5ms)
+2014-10-14T20:32:19.983796+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (3.5ms)
+2014-10-14T20:32:19.985827+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (6.3ms)
+2014-10-14T20:32:19.985831+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (6.3ms)
+2014-10-14T20:32:19.986423+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T20:32:19.986428+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T20:32:19.988763+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.2ms)
+2014-10-14T20:32:19.988770+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.2ms)
+2014-10-14T20:32:19.989095+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T20:32:19.989114+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T20:32:19.989368+00:00 app[web.1]: Completed 200 OK in 58ms (Views: 9.1ms | ActiveRecord: 3.9ms)
+2014-10-14T20:32:19.989387+00:00 app[web.1]: Completed 200 OK in 58ms (Views: 9.1ms | ActiveRecord: 3.9ms)
+2014-10-14T20:32:19.931264+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T20:32:19.931333+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GymlnQOR5jDmY7CImLFazwXd1/BubS7Sa8REhLE5dI=", "user"=>{"name"=>"hritik bhardwaj", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T20:32:19.933676+00:00 app[web.1]: WARNING: Can't mass-assign protected attributes for User: name, email, password, password_confirmation
+2014-10-14T20:32:19.933683+00:00 app[web.1]: 	app/controllers/users_controller.rb:22:in `create'
+2014-10-14T20:32:19.934751+00:00 app[web.1]: WARNING: Can't mass-assign protected attributes for User: name, email, password, password_confirmation
+2014-10-14T20:32:19.934756+00:00 app[web.1]: 	app/controllers/users_controller.rb:22:in `create'
+2014-10-14T20:32:19.931317+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GymlnQOR5jDmY7CImLFazwXd1/BubS7Sa8REhLE5dI=", "user"=>{"name"=>"hritik bhardwaj", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T20:32:19.928358+00:00 app[web.1]: Started POST "/users" for 121.247.250.56 at 2014-10-14 20:32:19 +0000
+2014-10-14T20:32:19.928370+00:00 app[web.1]: Started POST "/users" for 121.247.250.56 at 2014-10-14 20:32:19 +0000
+2014-10-14T20:32:19.931275+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T20:35:25.851861+00:00 app[web.1]: Started POST "/users" for 121.247.250.56 at 2014-10-14 20:35:25 +0000
+2014-10-14T20:35:25.856064+00:00 app[web.1]: 	app/controllers/users_controller.rb:22:in `create'
+2014-10-14T20:35:25.869542+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T20:35:25.869536+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T20:35:25.856061+00:00 app[web.1]: WARNING: Can't mass-assign protected attributes for User: name, email, password, password_confirmation
+2014-10-14T20:35:25.854047+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GymlnQOR5jDmY7CImLFazwXd1/BubS7Sa8REhLE5dI=", "user"=>{"name"=>"hritik", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T20:35:25.875202+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T20:35:25.851830+00:00 app[web.1]: Started POST "/users" for 121.247.250.56 at 2014-10-14 20:35:25 +0000
+2014-10-14T20:35:25.857015+00:00 app[web.1]: 	app/controllers/users_controller.rb:22:in `create'
+2014-10-14T20:35:25.867179+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (2.7ms)
+2014-10-14T20:35:25.875221+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T20:35:25.853997+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T20:35:25.869031+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (5.2ms)
+2014-10-14T20:35:25.875430+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 7.3ms | ActiveRecord: 6.8ms)
+2014-10-14T20:35:25.857013+00:00 app[web.1]: WARNING: Can't mass-assign protected attributes for User: name, email, password, password_confirmation
+2014-10-14T20:35:25.874883+00:00 app[web.1]:   Rendered layouts/_header.html.erb (5.2ms)
+2014-10-14T20:35:25.854028+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GymlnQOR5jDmY7CImLFazwXd1/BubS7Sa8REhLE5dI=", "user"=>{"name"=>"hritik", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T20:35:25.869036+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (5.2ms)
+2014-10-14T20:35:25.853991+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T20:35:25.867189+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (2.7ms)
+2014-10-14T20:35:25.875412+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 7.3ms | ActiveRecord: 6.8ms)
+2014-10-14T20:35:25.877775+00:00 heroku[router]: at=info method=POST path="/users" host=damp-reaches-6996.herokuapp.com request_id=82b3baeb-cb4c-4003-9a64-bbf4073cebf8 fwd="121.247.250.56" dyno=web.1 connect=2ms service=28ms status=200 bytes=3839
+2014-10-14T20:35:25.874888+00:00 app[web.1]:   Rendered layouts/_header.html.erb (5.2ms)
+2014-10-14T20:35:56.186749+00:00 app[web.1]: Completed 404 Not Found in 6ms
+2014-10-14T20:35:56.188032+00:00 app[web.1]: 
+2014-10-14T20:35:56.188018+00:00 app[web.1]: 
+2014-10-14T20:35:56.180372+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T20:35:56.188027+00:00 app[web.1]: 
+2014-10-14T20:35:56.178000+00:00 app[web.1]: Started GET "/users/1" for 121.247.250.56 at 2014-10-14 20:35:56 +0000
+2014-10-14T20:35:56.188024+00:00 app[web.1]: 
+2014-10-14T20:35:56.188020+00:00 app[web.1]: ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+2014-10-14T20:35:56.180401+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T20:35:56.188029+00:00 app[web.1]: ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+2014-10-14T20:35:56.180421+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T20:35:56.188030+00:00 app[web.1]:   app/controllers/users_controller.rb:12:in `show'
+2014-10-14T20:35:56.180367+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T20:35:56.188023+00:00 app[web.1]: 
+2014-10-14T20:35:56.177993+00:00 app[web.1]: Started GET "/users/1" for 121.247.250.56 at 2014-10-14 20:35:56 +0000
+2014-10-14T20:35:56.188022+00:00 app[web.1]:   app/controllers/users_controller.rb:12:in `show'
+2014-10-14T20:35:56.186744+00:00 app[web.1]: Completed 404 Not Found in 6ms
+2014-10-14T20:35:56.188031+00:00 app[web.1]: 
+2014-10-14T20:35:56.195478+00:00 heroku[router]: at=info method=GET path="/users/1" host=damp-reaches-6996.herokuapp.com request_id=df8c0ffc-2272-405b-ae3b-3acdb4c3bedf fwd="121.247.250.56" dyno=web.1 connect=3ms service=15ms status=404 bytes=1100
+2014-10-14T21:46:45.338864+00:00 heroku[web.1]: Idling
+2014-10-14T21:46:45.339355+00:00 heroku[web.1]: State changed from up to down
+2014-10-14T21:46:48.002221+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-14T21:46:48.002215+00:00 app[web.1]: [2014-10-14 21:46:48] ERROR SignalException: SIGTERM
+2014-10-14T21:46:47.518052+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-14T21:46:57.048863+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-14T21:46:58.276582+00:00 heroku[web.1]: Process exited with status 137
+2014-10-14T21:46:57.048691+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-14T23:01:21+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-14T23:01:53+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-14T23:01:53.256481+00:00 heroku[api]: Deploy 7664d07 by hritikbhardwaj09@gmail.com
+2014-10-14T23:01:53.256538+00:00 heroku[api]: Release v8 created by hritikbhardwaj09@gmail.com
+2014-10-14T23:02:19.432687+00:00 heroku[web.1]: Unidling
+2014-10-14T23:02:19.432687+00:00 heroku[web.1]: State changed from down to starting
+2014-10-14T23:02:22.227460+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 10890 -e production`
+2014-10-14T23:02:26.251718+00:00 app[web.1]: [2014-10-14 23:02:26] INFO  WEBrick::HTTPServer#start: pid=2 port=10890
+2014-10-14T23:02:26.251235+00:00 app[web.1]: [2014-10-14 23:02:26] INFO  WEBrick 1.3.1
+2014-10-14T23:02:26.251255+00:00 app[web.1]: [2014-10-14 23:02:26] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-14T23:02:26.885738+00:00 heroku[web.1]: State changed from starting to up
+2014-10-14T23:02:28.502345+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-14T23:02:28.658830+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-10-14T23:02:28.658856+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:676:in `call'
+2014-10-14T23:02:28.658878+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+2014-10-14T23:02:28.658890+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-10-14T23:02:28.658902+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+2014-10-14T23:02:28.658927+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:377:in `_run__1953613716592471397__process_action__callbacks'
+2014-10-14T23:02:28.658959+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+2014-10-14T23:02:28.658971+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+2014-10-14T23:02:28.658983+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:373:in `_run__148150462364177750__call__callbacks'
+2014-10-14T23:02:28.659004+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-10-14T23:02:28.502347+00:00 app[web.1]: Started POST "/users" for 1.39.15.57 at 2014-10-14 23:02:28 +0000
+2014-10-14T23:02:28.658831+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+2014-10-14T23:02:28.658857+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+2014-10-14T23:02:28.658880+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-10-14T23:02:28.658891+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-10-14T23:02:28.658904+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+2014-10-14T23:02:28.658940+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-10-14T23:02:28.658961+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal.rb:231:in `block in action'
+2014-10-14T23:02:28.658972+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+2014-10-14T23:02:28.658984+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-10-14T23:02:28.659005+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-10-14T23:02:28.637346+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GymlnQOR5jDmY7CImLFazwXd1/BubS7Sa8REhLE5dI=", "user"=>{"name"=>"hritik", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T23:02:28.658843+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/abstract_controller/base.rb:136:in `process'
+2014-10-14T23:02:28.658863+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+2014-10-14T23:02:28.658885+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2014-10-14T23:02:28.658922+00:00 app[web.1]: ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2014-10-14T23:02:28.658955+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+2014-10-14T23:02:28.658966+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/journey/router.rb:59:in `each'
+2014-10-14T23:02:28.658978+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+2014-10-14T23:02:28.658999+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-10-14T23:02:28.659016+00:00 app[web.1]: 
+2014-10-14T23:02:28.502342+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:10890
+2014-10-14T23:02:28.658827+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/request_forgery_protection.rb:180:in `verify_authenticity_token'
+2014-10-14T23:02:28.658846+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal.rb:195:in `dispatch'
+2014-10-14T23:02:28.658847+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+2014-10-14T23:02:28.658848+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal.rb:231:in `block in action'
+2014-10-14T23:02:28.658849+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:82:in `call'
+2014-10-14T23:02:28.658850+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+2014-10-14T23:02:28.658851+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:50:in `call'
+2014-10-14T23:02:28.658853+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/journey/router.rb:71:in `block in call'
+2014-10-14T23:02:28.658854+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/journey/router.rb:59:in `each'
+2014-10-14T23:02:28.658865+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+2014-10-14T23:02:28.658888+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-10-14T23:02:28.658925+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/request_forgery_protection.rb:173:in `handle_unverified_request'
+2014-10-14T23:02:28.658957+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/abstract_controller/rendering.rb:44:in `process'
+2014-10-14T23:02:28.658969+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:676:in `call'
+2014-10-14T23:02:28.658981+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+2014-10-14T23:02:28.659002+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-10-14T23:02:28.637298+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T23:02:28.658834+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+2014-10-14T23:02:28.658860+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+2014-10-14T23:02:28.658882+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `block in call'
+2014-10-14T23:02:28.658894+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-10-14T23:02:28.658920+00:00 app[web.1]: 
+2014-10-14T23:02:28.658944+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+2014-10-14T23:02:28.658964+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:50:in `call'
+2014-10-14T23:02:28.658976+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+2014-10-14T23:02:28.658995+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2014-10-14T23:02:28.659014+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+2014-10-14T23:02:28.502335+00:00 app[web.1]: => Booting WEBrick
+2014-10-14T23:02:28.656648+00:00 app[web.1]: Can't verify CSRF token authenticity
+2014-10-14T23:02:28.656654+00:00 app[web.1]: Can't verify CSRF token authenticity
+2014-10-14T23:02:28.656942+00:00 app[web.1]: Completed 422 Unprocessable Entity in 19ms
+2014-10-14T23:02:28.656946+00:00 app[web.1]: Completed 422 Unprocessable Entity in 19ms
+2014-10-14T23:02:28.658820+00:00 app[web.1]: 
+2014-10-14T23:02:28.658823+00:00 app[web.1]: ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2014-10-14T23:02:28.658825+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/request_forgery_protection.rb:166:in `handle_unverified_request'
+2014-10-14T23:02:28.658826+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/request_forgery_protection.rb:173:in `handle_unverified_request'
+2014-10-14T23:02:28.658844+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/abstract_controller/rendering.rb:44:in `process'
+2014-10-14T23:02:28.658864+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+2014-10-14T23:02:28.658887+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `call'
+2014-10-14T23:02:28.658924+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/request_forgery_protection.rb:166:in `handle_unverified_request'
+2014-10-14T23:02:28.658956+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/abstract_controller/base.rb:136:in `process'
+2014-10-14T23:02:28.658968+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/journey/router.rb:59:in `call'
+2014-10-14T23:02:28.658980+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.8/lib/active_record/query_cache.rb:36:in `call'
+2014-10-14T23:02:28.659000+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-10-14T23:02:28.659018+00:00 app[web.1]: 
+2014-10-14T23:02:28.502355+00:00 app[web.1]: Started POST "/users" for 1.39.15.57 at 2014-10-14 23:02:28 +0000
+2014-10-14T23:02:28.658833+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2014-10-14T23:02:28.658858+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+2014-10-14T23:02:28.658881+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:38:in `call_app'
+2014-10-14T23:02:28.658893+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-10-14T23:02:28.658905+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+2014-10-14T23:02:28.658941+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+2014-10-14T23:02:28.658962+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:82:in `call'
+2014-10-14T23:02:28.658974+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+2014-10-14T23:02:28.658986+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2014-10-14T23:02:28.658987+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+2014-10-14T23:02:28.658988+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+2014-10-14T23:02:28.658989+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-10-14T23:02:28.658990+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:38:in `call_app'
+2014-10-14T23:02:28.658991+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `block in call'
+2014-10-14T23:02:28.658993+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2014-10-14T23:02:28.659006+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2014-10-14T23:02:28.659007+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/engine.rb:511:in `call'
+2014-10-14T23:02:28.659008+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/application.rb:97:in `call'
+2014-10-14T23:02:28.659010+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+2014-10-14T23:02:28.659011+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-10-14T23:02:28.659012+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+2014-10-14T23:02:28.502344+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-14T23:02:28.658829+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:377:in `_run__1953613716592471397__process_action__callbacks'
+2014-10-14T23:02:28.658855+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/journey/router.rb:59:in `call'
+2014-10-14T23:02:28.658866+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.8/lib/active_record/query_cache.rb:36:in `call'
+2014-10-14T23:02:28.658868+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+2014-10-14T23:02:28.658873+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+2014-10-14T23:02:28.658874+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:373:in `_run__148150462364177750__call__callbacks'
+2014-10-14T23:02:28.658875+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-10-14T23:02:28.658876+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2014-10-14T23:02:28.658877+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+2014-10-14T23:02:28.658889+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-10-14T23:02:28.658896+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/engine.rb:511:in `call'
+2014-10-14T23:02:28.658897+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/application.rb:97:in `call'
+2014-10-14T23:02:28.658899+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+2014-10-14T23:02:28.658900+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-10-14T23:02:28.658901+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+2014-10-14T23:02:28.658926+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/request_forgery_protection.rb:180:in `verify_authenticity_token'
+2014-10-14T23:02:28.658958+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal.rb:195:in `dispatch'
+2014-10-14T23:02:28.658970+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+2014-10-14T23:02:28.658982+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+2014-10-14T23:02:28.659003+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-10-14T23:02:28.637311+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T23:02:28.658836+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/notifications.rb:159:in `block in instrument'
+2014-10-14T23:02:28.658837+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2014-10-14T23:02:28.658838+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/notifications.rb:159:in `instrument'
+2014-10-14T23:02:28.658840+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2014-10-14T23:02:28.658841+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+2014-10-14T23:02:28.658861+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+2014-10-14T23:02:28.658883+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2014-10-14T23:02:28.658895+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2014-10-14T23:02:28.658921+00:00 app[web.1]: 
+2014-10-14T23:02:28.658945+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/notifications.rb:159:in `block in instrument'
+2014-10-14T23:02:28.658946+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2014-10-14T23:02:28.658951+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/notifications.rb:159:in `instrument'
+2014-10-14T23:02:28.658952+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2014-10-14T23:02:28.658953+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+2014-10-14T23:02:28.658965+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/journey/router.rb:71:in `block in call'
+2014-10-14T23:02:28.658977+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+2014-10-14T23:02:28.658996+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.8/lib/rails/rack/logger.rb:20:in `call'
+2014-10-14T23:02:28.659015+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+2014-10-14T23:02:28.637341+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GymlnQOR5jDmY7CImLFazwXd1/BubS7Sa8REhLE5dI=", "user"=>{"name"=>"hritik", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T23:02:28.658842+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+2014-10-14T23:02:28.658862+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/act
+ionpack-4.0.8/lib/action_dispatch/middleware/flash.rb:241:in `call'
+2014-10-14T23:02:28.658884+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2014-10-14T23:02:28.658906+00:00 app[web.1]: 
+2014-10-14T23:02:28.658942+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2014-10-14T23:02:28.658963+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+2014-10-14T23:02:28.658975+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/flash.rb:241:in `call'
+2014-10-14T23:02:28.658994+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2014-10-14T23:02:28.659013+00:00 app[web.1]:   vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+2014-10-14T23:02:28.660772+00:00 heroku[router]: at=info method=POST path="/users" host=damp-reaches-6996.herokuapp.com request_id=4c08a617-71c4-4f5c-98ed-34f39fa44b2d fwd="1.39.15.57" dyno=web.1 connect=6ms service=171ms status=422 bytes=995
+2014-10-14T23:02:34.244187+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=855fd942-29e3-45d1-97e2-657ed82a3f0e fwd="1.39.15.57" dyno=web.1 connect=1ms service=8ms status=200 bytes=273
+2014-10-14T23:03:41.338229+00:00 heroku[api]: Scale to web=1 by hritikbhardwaj09@gmail.com
+2014-10-14T23:04:06.628379+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:04:06 +0000
+2014-10-14T23:04:06.628386+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:04:06 +0000
+2014-10-14T23:04:06.632340+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:04:06.632345+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:04:07.189392+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a1ab1f3b-7d4d-4329-a073-cd5346ea2288 fwd="1.39.15.57" dyno=web.1 connect=1ms service=560ms status=200 bytes=2486
+2014-10-14T23:04:07.178075+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+2014-10-14T23:04:07.178084+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+2014-10-14T23:04:07.182647+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-14T23:04:07.182651+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-14T23:04:07.183949+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-14T23:04:07.180584+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-14T23:04:07.180588+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-14T23:04:07.184211+00:00 app[web.1]: Completed 200 OK in 552ms (Views: 9.7ms | ActiveRecord: 538.1ms)
+2014-10-14T23:04:07.184228+00:00 app[web.1]: Completed 200 OK in 552ms (Views: 9.7ms | ActiveRecord: 538.1ms)
+2014-10-14T23:04:07.183945+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-14T23:04:07.983201+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=dc6185c1-c40b-4345-9013-58962bfda6ef fwd="1.39.15.57" dyno=web.1 connect=3ms service=8ms status=200 bytes=134516
+2014-10-14T23:04:08.261361+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=fa067264-4246-445d-a465-793e99e513ac fwd="1.39.15.57" dyno=web.1 connect=0ms service=14ms status=200 bytes=364246
+2014-10-14T23:04:10.937621+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=02882441-506b-4bbb-ab54-fafd0b8e94d8 fwd="1.39.15.57" dyno=web.1 connect=1ms service=2ms status=304 bytes=178
+2014-10-14T23:04:15.781597+00:00 app[web.1]: Started GET "/signup" for 1.39.15.57 at 2014-10-14 23:04:15 +0000
+2014-10-14T23:04:15.785509+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T23:04:15.785517+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T23:04:15.781585+00:00 app[web.1]: Started GET "/signup" for 1.39.15.57 at 2014-10-14 23:04:15 +0000
+2014-10-14T23:04:15.806437+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.7ms)
+2014-10-14T23:04:15.806450+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.7ms)
+2014-10-14T23:04:16.069500+00:00 heroku[router]: at=info method=GET path="/signup" host=damp-reaches-6996.herokuapp.com request_id=9c02b100-e4ba-4b3f-8b79-c53d67aa5821 fwd="1.39.15.57" dyno=web.1 connect=0ms service=290ms status=200 bytes=3251
+2014-10-14T23:04:16.058843+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (263.3ms)
+2014-10-14T23:04:16.058853+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (263.3ms)
+2014-10-14T23:04:16.060540+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-14T23:04:16.060545+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-14T23:04:16.065754+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.5ms)
+2014-10-14T23:04:16.065763+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.5ms)
+2014-10-14T23:04:16.067127+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-14T23:04:16.067132+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-14T23:04:16.067426+00:00 app[web.1]: Completed 200 OK in 282ms (Views: 271.0ms | ActiveRecord: 9.8ms)
+2014-10-14T23:04:16.067430+00:00 app[web.1]: Completed 200 OK in 282ms (Views: 271.0ms | ActiveRecord: 9.8ms)
+2014-10-14T23:04:16.477306+00:00 app[web.1]: Started GET "/signup" for 1.39.15.57 at 2014-10-14 23:04:16 +0000
+2014-10-14T23:04:16.495750+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.7ms)
+2014-10-14T23:04:16.477316+00:00 app[web.1]: Started GET "/signup" for 1.39.15.57 at 2014-10-14 23:04:16 +0000
+2014-10-14T23:04:16.495757+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.7ms)
+2014-10-14T23:04:16.481016+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T23:04:16.496281+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-10-14T23:04:16.481025+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-14T23:04:16.496296+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-10-14T23:04:16.486702+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.8ms)
+2014-10-14T23:04:16.496680+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 11.5ms | ActiveRecord: 3.2ms)
+2014-10-14T23:04:16.486712+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.8ms)
+2014-10-14T23:04:16.496685+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 11.5ms | ActiveRecord: 3.2ms)
+2014-10-14T23:04:16.490133+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (7.2ms)
+2014-10-14T23:04:16.490142+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (7.2ms)
+2014-10-14T23:04:16.490854+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T23:04:16.490859+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T23:04:16.500299+00:00 heroku[router]: at=info method=GET path="/signup" host=damp-reaches-6996.herokuapp.com request_id=d374f64b-956b-4b6a-ad74-aac3156789b8 fwd="1.39.15.57" dyno=web.1 connect=1ms service=24ms status=304 bytes=892
+2014-10-14T23:04:17.094100+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=3b86f331-8785-430d-9790-a66e10811ad7 fwd="1.39.15.57" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-14T23:04:17.073700+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=b450774c-e668-4384-af09-0ce8ab8ff5b7 fwd="1.39.15.57" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-14T23:04:47.229948+00:00 app[web.1]: Started POST "/users" for 1.39.15.57 at 2014-10-14 23:04:47 +0000
+2014-10-14T23:04:47.229956+00:00 app[web.1]: Started POST "/users" for 1.39.15.57 at 2014-10-14 23:04:47 +0000
+2014-10-14T23:04:47.233169+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T23:04:47.233173+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-14T23:04:47.233225+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"thmJtAv2i01mqqOvbIk70AJcqjYOY7BTwSJrX+c/Eo0=", "user"=>{"name"=>"hritik", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T23:04:47.233242+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"thmJtAv2i01mqqOvbIk70AJcqjYOY7BTwSJrX+c/Eo0=", "user"=>{"name"=>"hritik", "email"=>"hritikbhardwaj09@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-14T23:04:47.390538+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/users/1
+2014-10-14T23:04:47.390548+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/users/1
+2014-10-14T23:04:47.390718+00:00 app[web.1]: Completed 302 Found in 157ms (ActiveRecord: 32.6ms)
+2014-10-14T23:04:47.390724+00:00 app[web.1]: Completed 302 Found in 157ms (ActiveRecord: 32.6ms)
+2014-10-14T23:04:47.394755+00:00 heroku[router]: at=info method=POST path="/users" host=damp-reaches-6996.herokuapp.com request_id=1b521c21-60ad-436a-b42e-e20a7e70230a fwd="1.39.15.57" dyno=web.1 connect=0ms service=167ms status=302 bytes=1349
+2014-10-14T23:04:47.832399+00:00 app[web.1]:   Rendered shared/_stats.html.erb (20.0ms)
+2014-10-14T23:04:47.846756+00:00 app[web.1]: Completed 200 OK in 61ms (Views: 13.5ms | ActiveRecord: 41.5ms)
+2014-10-14T23:04:47.782823+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:04:47 +0000
+2014-10-14T23:04:47.841622+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:04:47.850474+00:00 heroku[router]: at=info method=GET path="/users/1" host=damp-reaches-6996.herokuapp.com request_id=70bbe734-e81f-41a9-ab45-833a9fd6ded3 fwd="1.39.15.57" dyno=web.1 connect=5ms service=69ms status=200 bytes=3636
+2014-10-14T23:04:47.840388+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (29.3ms)
+2014-10-14T23:04:47.840395+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (29.3ms)
+2014-10-14T23:04:47.786053+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:04:47.846433+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:04:47.782812+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:04:47 +0000
+2014-10-14T23:04:47.841618+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:04:47.786020+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:04:47.846003+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.2ms)
+2014-10-14T23:04:47.786083+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:04:47.846437+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:04:47.832410+00:00 app[web.1]:   Rendered shared/_stats.html.erb (20.0ms)
+2014-10-14T23:04:47.846761+00:00 app[web.1]: Completed 200 OK in 61ms (Views: 13.5ms | ActiveRecord: 41.5ms)
+2014-10-14T23:04:47.786025+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:04:47.846010+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.2ms)
+2014-10-14T23:04:48.581300+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=1c8e5a0e-76ef-401b-a66c-7a1cb6c63429 fwd="1.39.15.57" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-14T23:04:48.583389+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=d6bddb81-86f3-47df-b630-442f6b732bcd fwd="1.39.15.57" dyno=web.1 connect=1ms service=4ms status=304 bytes=178
+2014-10-14T23:04:50.591256+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=ec5b49a4-1f51-4471-ae97-f31858556940 fwd="1.39.15.57" dyno=web.1 connect=1ms service=2ms status=304 bytes=178
+2014-10-14T23:05:01.501864+00:00 app[web.1]: Started GET "/users" for 1.39.15.57 at 2014-10-14 23:05:01 +0000
+2014-10-14T23:05:01.501875+00:00 app[web.1]: Started GET "/users" for 1.39.15.57 at 2014-10-14 23:05:01 +0000
+2014-10-14T23:05:01.505396+00:00 app[web.1]: Processing by UsersController#index as HTML
+2014-10-14T23:05:01.505404+00:00 app[web.1]: Processing by UsersController#index as HTML
+2014-10-14T23:05:01.520482+00:00 app[web.1]:   Rendered users/_user.html.erb (1.4ms)
+2014-10-14T23:05:01.522202+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T23:05:01.520854+00:00 app[web.1]:   Rendered users/index.html.erb within layouts/application (10.5ms)
+2014-10-14T23:05:01.522210+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T23:05:01.520580+00:00 app[web.1]:   Rendered users/_user.html.erb (1.4ms)
+2014-10-14T23:05:01.523146+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-14T23:05:01.520926+00:00 app[web.1]:   Rendered users/index.html.erb within layouts/application (10.5ms)
+2014-10-14T23:05:01.523555+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:01.523905+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 9.9ms | ActiveRecord: 7.0ms)
+2014-10-14T23:05:01.523910+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 9.9ms | ActiveRecord: 7.0ms)
+2014-10-14T23:05:01.523140+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-14T23:05:01.523549+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:01.528866+00:00 heroku[router]: at=info method=GET path="/users" host=damp-reaches-6996.herokuapp.com request_id=f35f5460-454c-4bb3-be56-c066eb98aa73 fwd="1.39.15.57" dyno=web.1 connect=1ms service=26ms status=200 bytes=3012
+2014-10-14T23:05:08.697149+00:00 heroku[router]: at=info method=GET path="/users/1" host=damp-reaches-6996.herokuapp.com request_id=b0276562-1532-4069-a49f-b3ffb7504a74 fwd="1.39.15.57" dyno=web.1 connect=3ms service=32ms status=200 bytes=3374
+2014-10-14T23:05:08.670185+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:05:08.670224+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:05:08.670192+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:05:08.670229+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:05:08.685206+00:00 app[web.1]:   Rendered shared/_stats.html.erb (4.5ms)
+2014-10-14T23:05:08.666913+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:05:08 +0000
+2014-10-14T23:05:08.685200+00:00 app[web.1]:   Rendered shared/_stats.html.erb (4.5ms)
+2014-10-14T23:05:08.666902+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:05:08 +0000
+2014-10-14T23:05:08.689169+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (9.9ms)
+2014-10-14T23:05:08.693994+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.6ms)
+2014-10-14T23:05:08.689164+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (9.9ms)
+2014-10-14T23:05:08.694609+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 9.0ms | ActiveRecord: 12.4ms)
+2014-10-14T23:05:08.694342+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:08.694346+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:08.694627+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 9.0ms | ActiveRecord: 12.4ms)
+2014-10-14T23:05:08.690298+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:05:08.690304+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:05:08.693989+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.6ms)
+2014-10-14T23:05:09.206514+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:05:09.206492+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:05:09.217734+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.7ms)
+2014-10-14T23:05:09.206399+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:05:09.217743+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.7ms)
+2014-10-14T23:05:09.220457+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (6.9ms)
+2014-10-14T23:05:09.220462+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (6.9ms)
+2014-10-14T23:05:09.221599+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T23:05:09.221619+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-14T23:05:09.225574+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.8ms)
+2014-10-14T23:05:09.225581+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.8ms)
+2014-10-14T23:05:09.225929+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:09.225935+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:09.226190+00:00 app[web.1]: Completed 200 OK in 20ms (Views: 7.0ms | ActiveRecord: 10.2ms)
+2014-10-14T23:05:09.226195+00:00 app[web.1]: Completed 200 OK in 20ms (Views: 7.0ms | ActiveRecord: 10.2ms)
+2014-10-14T23:05:09.203320+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:05:09 +0000
+2014-10-14T23:05:09.203327+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:05:09 +0000
+2014-10-14T23:05:09.206425+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:05:09.229215+00:00 heroku[router]: at=info method=GET path="/users/1" host=damp-reaches-6996.herokuapp.com request_id=1fe6ce7b-fd3a-4f7e-841d-755bb746c488 fwd="1.39.15.57" dyno=web.1 connect=0ms service=27ms status=304 bytes=893
+2014-10-14T23:05:09.806331+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=bc999456-d4e9-41e0-81d4-955dd827c26d fwd="1.39.15.57" dyno=web.1 connect=0ms service=3ms status=304 bytes=178
+2014-10-14T23:05:09.869561+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=6c510cdb-21f1-4970-be24-e9ae7140cfc0 fwd="1.39.15.57" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-14T23:05:16.792369+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=0128c02b-eaf4-4aa0-8507-38f44c985fc2 fwd="1.39.15.57" dyno=web.1 connect=1ms service=79ms status=200 bytes=4220
+2014-10-14T23:05:16.774972+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:05:16.785222+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.0ms)
+2014-10-14T23:05:16.768231+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (35.2ms)
+2014-10-14T23:05:16.783286+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (51.4ms)
+2014-10-14T23:05:16.717826+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:05:16.783110+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (3.6ms)
+2014-10-14T23:05:16.786030+00:00 app[web.1]: Completed 200 OK in 68ms (Views: 46.4ms | ActiveRecord: 13.3ms)
+2014-10-14T23:05:16.772392+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.9ms)
+2014-10-14T23:05:16.784127+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:05:16.713996+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:05:16 +0000
+2014-10-14T23:05:16.778712+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (5.6ms)
+2014-10-14T23:05:16.785688+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:16.768223+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (35.2ms)
+2014-10-14T23:05:16.783221+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (51.4ms)
+2014-10-14T23:05:16.717819+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:05:16.783104+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (3.6ms)
+2014-10-14T23:05:16.786026+00:00 app[web.1]: Completed 200 OK in 68ms (Views: 46.4ms | ActiveRecord: 13.3ms)
+2014-10-14T23:05:16.772386+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.9ms)
+2014-10-14T23:05:16.784120+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:05:16.775015+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:05:16.785227+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.0ms)
+2014-10-14T23:05:16.713988+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:05:16 +0000
+2014-10-14T23:05:16.778689+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (5.6ms)
+2014-10-14T23:05:16.785673+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:17.847738+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=5678933a-61fa-4459-b860-1509a75758e9 fwd="1.39.15.57" dyno=web.1 connect=0ms service=3ms status=304 bytes=178
+2014-10-14T23:05:18.304123+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=470da58a-27ef-46b2-b7a4-5a19e26eddce fwd="1.39.15.57" dyno=web.1 connect=1ms service=35ms status=304 bytes=886
+2014-10-14T23:05:18.273594+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:05:18.270282+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:05:18 +0000
+2014-10-14T23:05:18.273598+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:05:18.286648+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (4.8ms)
+2014-10-14T23:05:18.291552+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:05:18.290092+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.3ms)
+2014-10-14T23:05:18.270290+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:05:18 +0000
+2014-10-14T23:05:18.290096+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.3ms)
+2014-10-14T23:05:18.286653+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (4.8ms)
+2014-10-14T23:05:18.291547+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:05:18.297552+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:05:18.297557+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:05:18.293171+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.6ms)
+2014-10-14T23:05:18.293175+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.6ms)
+2014-10-14T23:05:18.296761+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (3.1ms)
+2014-10-14T23:05:18.296765+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (3.1ms)
+2014-10-14T23:05:18.296850+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (15.6ms)
+2014-10-14T23:05:18.296867+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (15.6ms)
+2014-10-14T23:05:18.298429+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:05:18.298785+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:18.298434+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:05:18.298789+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:05:18.299034+00:00 app[web.1]: Completed 200 OK in 25ms (Views: 12.1ms | ActiveRecord: 10.1ms)
+2014-10-14T23:05:18.299033+00:00 app[web.1]: Completed 200 OK in 25ms (Views: 12.1ms | ActiveRecord: 10.1ms)
+2014-10-14T23:05:18.868671+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=c2555432-7b2e-4a66-8eb6-2c3d6970d833 fwd="1.39.15.57" dyno=web.1 connect=1ms service=2ms status=304 bytes=178
+2014-10-14T23:05:18.864693+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=2f4ffd93-bfd8-43c4-9818-36571bf3f3b5 fwd="1.39.15.57" dyno=web.1 connect=0ms service=3ms status=304 bytes=178
+2014-10-14T23:06:06.333483+00:00 app[web.1]: Started POST "/posts" for 1.39.15.57 at 2014-10-14 23:06:06 +0000
+2014-10-14T23:06:06.337310+00:00 app[web.1]: Processing by PostsController#create as HTML
+2014-10-14T23:06:06.337355+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"thmJtAv2i01mqqOvbIk70AJcqjYOY7BTwSJrX+c/Eo0=", "post"=>{"content"=>"first post", "title"=>"check title"}, "commit"=>"Post"}
+2014-10-14T23:06:06.337397+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"thmJtAv2i01mqqOvbIk70AJcqjYOY7BTwSJrX+c/Eo0=", "post"=>{"content"=>"first post", "title"=>"check title"}, "commit"=>"Post"}
+2014-10-14T23:06:06.421505+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-14T23:06:06.421724+00:00 app[web.1]: Completed 302 Found in 84ms (ActiveRecord: 77.9ms)
+2014-10-14T23:06:06.421492+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-14T23:06:06.421710+00:00 app[web.1]: Completed 302 Found in 84ms (ActiveRecord: 77.9ms)
+2014-10-14T23:06:06.337315+00:00 app[web.1]: Processing by PostsController#create as HTML
+2014-10-14T23:06:06.333491+00:00 app[web.1]: Started POST "/posts" for 1.39.15.57 at 2014-10-14 23:06:06 +0000
+2014-10-14T23:06:06.424865+00:00 heroku[router]: at=info method=POST path="/posts" host=damp-reaches-6996.herokuapp.com request_id=43909478-7493-43cd-86bf-a051057e4c7c fwd="1.39.15.57" dyno=web.1 connect=8ms service=93ms status=302 bytes=1197
+2014-10-14T23:06:06.746479+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:06:06 +0000
+2014-10-14T23:06:06.746489+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:06:06 +0000
+2014-10-14T23:06:06.749386+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:06:06.749406+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:06:06.761146+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.6ms)
+2014-10-14T23:06:06.761152+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.6ms)
+2014-10-14T23:06:06.764843+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.5ms)
+2014-10-14T23:06:06.764850+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.5ms)
+2014-10-14T23:06:06.765877+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:06:06.765882+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:06:06.767615+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.6ms)
+2014-10-14T23:06:06.767620+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.6ms)
+2014-10-14T23:06:06.776346+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-14T23:06:06.776352+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-14T23:06:06.776452+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (8.7ms)
+2014-10-14T23:06:06.776538+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (8.7ms)
+2014-10-14T23:06:06.776627+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (19.3ms)
+2014-10-14T23:06:06.776732+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (19.3ms)
+2014-10-14T23:06:06.777576+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:06:06.777580+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:06:06.778543+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-14T23:06:06.778547+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-14T23:06:06.778930+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:06:06.778945+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:06:06.779264+00:00 app[web.1]: Completed 200 OK in 30ms (Views: 13.9ms | ActiveRecord: 12.5ms)
+2014-10-14T23:06:06.779281+00:00 app[web.1]: Completed 200 OK in 30ms (Views: 13.9ms | ActiveRecord: 12.5ms)
+2014-10-14T23:06:06.782179+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=c8809260-50ef-44e4-8a9f-fa0da45d2604 fwd="1.39.15.57" dyno=web.1 connect=1ms service=37ms status=200 bytes=4768
+2014-10-14T23:06:07.347823+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=0efa7191-adc5-4ac0-b133-23fe2228e96e fwd="1.39.15.57" dyno=web.1 connect=0ms service=4ms status=304 bytes=178
+2014-10-14T23:06:07.344754+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=f5f75bfa-d53c-4268-a779-6adbfb70da4d fwd="1.39.15.57" dyno=web.1 connect=5ms service=5ms status=304 bytes=178
+2014-10-14T23:06:08.038181+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=a9426cb0-a8fc-43c4-859d-c762ad6dd894 fwd="1.39.15.57" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-14T23:06:17.194669+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:06:17.231930+00:00 app[web.1]:   Rendered posts/show.js.erb (0.5ms)
+2014-10-14T23:06:17.231938+00:00 app[web.1]:   Rendered posts/show.js.erb (0.5ms)
+2014-10-14T23:06:17.232208+00:00 app[web.1]: Completed 200 OK in 37ms (Views: 1.7ms | ActiveRecord: 25.3ms)
+2014-10-14T23:06:17.232214+00:00 app[web.1]: Completed 200 OK in 37ms (Views: 1.7ms | ActiveRecord: 25.3ms)
+2014-10-14T23:06:17.190305+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:06:17 +0000
+2014-10-14T23:06:17.190316+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:06:17 +0000
+2014-10-14T23:06:17.194642+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:06:17.194653+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:06:17.194655+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:06:17.240798+00:00 heroku[router]: at=info method=GET path="/posts/1" host=damp-reaches-6996.herokuapp.com request_id=868c543a-65e8-4b8b-8efb-d78362b8aad2 fwd="1.39.15.57" dyno=web.1 connect=4ms service=48ms status=200 bytes=580
+2014-10-14T23:06:26.799842+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=2f98a943-0923-453d-aa61-73070ad5048a fwd="1.39.15.57" dyno=web.1 connect=1ms service=37ms status=200 bytes=4545
+2014-10-14T23:06:26.763272+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:06:26 +0000
+2014-10-14T23:06:26.763241+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:06:26 +0000
+2014-10-14T23:06:26.766543+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:06:26.781914+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.4ms)
+2014-10-14T23:06:26.784432+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.4ms)
+2014-10-14T23:06:26.766549+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:06:26.778344+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.3ms)
+2014-10-14T23:06:26.782573+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-14T23:06:26.781909+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.4ms)
+2014-10-14T23:06:26.782580+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-14T23:06:26.778354+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.3ms)
+2014-10-14T23:06:26.784437+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.4ms)
+2014-10-14T23:06:26.791305+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (0.8ms)
+2014-10-14T23:06:26.791311+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (0.8ms)
+2014-10-14T23:06:26.791404+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (6.9ms)
+2014-10-14T23:06:26.791428+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (6.9ms)
+2014-10-14T23:06:26.791500+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (16.7ms)
+2014-10-14T23:06:26.791513+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (16.7ms)
+2014-10-14T23:06:26.792192+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:06:26.792197+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:06:26.793045+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:06:26.793049+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:06:26.793401+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:06:26.793405+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:06:26.793664+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 11.1ms | ActiveRecord: 12.3ms)
+2014-10-14T23:06:26.793682+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 11.1ms | ActiveRecord: 12.3ms)
+2014-10-14T23:06:27.478252+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=c628aa70-0dd5-43b3-9458-1d5209e9e661 fwd="1.39.15.57" dyno=web.1 connect=0ms service=3ms status=304 bytes=178
+2014-10-14T23:06:27.491930+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=1aa1b566-f4e9-4308-81c5-0d4e8aae380d fwd="1.39.15.57" dyno=web.1 connect=0ms service=2ms status=304 bytes=178
+2014-10-14T23:06:52.439923+00:00 heroku[router]: at=info method=GET path="/posts/1" host=damp-reaches-6996.herokuapp.com request_id=29fd32a6-e5a1-41ef-beec-94de2295aff5 fwd="1.39.15.57" dyno=web.1 connect=2ms service=18ms status=304 bytes=501
+2014-10-14T23:06:52.422856+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:06:52 +0000
+2014-10-14T23:06:52.422864+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:06:52 +0000
+2014-10-14T23:06:52.426098+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:06:52.426103+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:06:52.426132+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:06:52.426144+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:06:52.437167+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:06:52.437352+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 7.9ms)
+2014-10-14T23:06:52.437369+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 7.9ms)
+2014-10-14T23:06:52.437163+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:07:02.324334+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=632df385-d68d-44bf-bf46-fba2285cc809 fwd="1.39.15.57" dyno=web.1 connect=0ms service=47ms status=200 bytes=4535
+2014-10-14T23:07:02.301335+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.7ms)
+2014-10-14T23:07:02.317921+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (8.8ms)
+2014-10-14T23:07:02.320446+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 14.3ms | ActiveRecord: 19.4ms)
+2014-10-14T23:07:02.320451+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 14.3ms | ActiveRecord: 19.4ms)
+2014-10-14T23:07:02.301344+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.7ms)
+2014-10-14T23:07:02.317939+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (8.8ms)
+2014-10-14T23:07:02.279192+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:07:02 +0000
+2014-10-14T23:07:02.308929+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.9ms)
+2014-10-14T23:07:02.318807+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:07:02.279203+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:07:02 +0000
+2014-10-14T23:07:02.308935+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.9ms)
+2014-10-14T23:07:02.319779+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-14T23:07:02.282586+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:07:02.317782+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (0.9ms)
+2014-10-14T23:07:02.320142+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:07:02.282637+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:07:02.317792+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (0.9ms)
+2014-10-14T23:07:02.320146+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:07:02.305783+00:00 app[web.1]:   Rendered shared/_stats.html.erb (4.2ms)
+2014-10-14T23:07:02.318057+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (20.8ms)
+2014-10-14T23:07:02.305790+00:00 app[web.1]:   Rendered shared/_stats.html.erb (4.2ms)
+2014-10-14T23:07:02.318022+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (20.8ms)
+2014-10-14T23:07:02.306634+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:07:02.319766+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-14T23:07:02.306638+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-14T23:07:02.318811+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:07:03.107680+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=2e2a27be-645d-4dbe-92d0-b941f6664925 fwd="1.39.15.57" dyno=web.1 connect=0ms service=7ms status=304 bytes=178
+2014-10-14T23:07:03.127119+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=028e0c30-8d43-4d40-8adc-e684f40c3fdf fwd="1.39.15.57" dyno=web.1 connect=2ms service=6ms status=304 bytes=178
+2014-10-14T23:07:04.011701+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=2030d66a-e3c6-47d9-8dda-e5cc47be1c7c fwd="1.39.15.57" dyno=web.1 connect=1ms service=2ms status=304 bytes=178
+2014-10-14T23:19:02.414813+00:00 heroku[router]: at=info method=POST path="/posts" host=damp-reaches-6996.herokuapp.com request_id=8f8de248-3e26-4820-9747-b4d794f33702 fwd="1.39.15.57" dyno=web.1 connect=2ms service=22ms status=302 bytes=1197
+2014-10-14T23:19:02.398756+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"thmJtAv2i01mqqOvbIk70AJcqjYOY7BTwSJrX+c/Eo0=", "post"=>{"content"=>"second post", "title"=>"watsup"}, "commit"=>"Post"}
+2014-10-14T23:19:02.398770+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"thmJtAv2i01mqqOvbIk70AJcqjYOY7BTwSJrX+c/Eo0=", "post"=>{"content"=>"second post", "title"=>"watsup"}, "commit"=>"Post"}
+2014-10-14T23:19:02.412539+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-14T23:19:02.398718+00:00 app[web.1]: Processing by PostsController#create as HTML
+2014-10-14T23:19:02.395421+00:00 app[web.1]: Started POST "/posts" for 1.39.15.57 at 2014-10-14 23:19:02 +0000
+2014-10-14T23:19:02.412694+00:00 app[web.1]: Completed 302 Found in 14ms (ActiveRecord: 9.5ms)
+2014-10-14T23:19:02.412533+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-14T23:19:02.398713+00:00 app[web.1]: Processing by PostsController#create as HTML
+2014-10-14T23:19:02.412687+00:00 app[web.1]: Completed 302 Found in 14ms (ActiveRecord: 9.5ms)
+2014-10-14T23:19:02.395414+00:00 app[web.1]: Started POST "/posts" for 1.39.15.57 at 2014-10-14 23:19:02 +0000
+2014-10-14T23:19:02.778920+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=fc42dea4-7afe-416f-a47b-b3fedd737e08 fwd="1.39.15.57" dyno=web.1 connect=2ms service=33ms status=500 bytes=1027
+2014-10-14T23:19:02.767940+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.6ms)
+2014-10-14T23:19:02.774970+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (4.2ms)
+2014-10-14T23:19:02.777093+00:00 app[web.1]: : SELECT COUNT(*) FROM "posts"  WHERE (posts.id = (SELECT id FROM posts))):
+2014-10-14T23:19:02.777108+00:00 app[web.1]: 
+2014-10-14T23:19:02.777117+00:00 app[web.1]:   app/views/shared/_read_feed.html.erb:1:in `_app_views_shared__read_feed_html_erb__2459553278755036137_21478460'
+2014-10-14T23:19:02.751727+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:19:02.774337+00:00 app[web.1]: PG::Error: ERROR:  more than one row returned by a subquery used as an expression
+2014-10-14T23:19:02.775236+00:00 app[web.1]: Completed 500 Internal Server Error in 23ms
+2014-10-14T23:19:02.777099+00:00 app[web.1]:     4:   </ol>
+2014-10-14T23:19:02.751737+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:19:02.774341+00:00 app[web.1]: : SELECT COUNT(*) FROM "posts"  WHERE (posts.id = (SELECT id FROM posts))
+2014-10-14T23:19:02.775239+00:00 app[web.1]: Completed 500 Internal Server Error in 23ms
+2014-10-14T23:19:02.777100+00:00 app[web.1]:   app/views/shared/_read_feed.html.erb:1:in `_app_views_shared__read_feed_html_erb__2459553278755036137_21478460'
+2014-10-14T23:19:02.777114+00:00 app[web.1]:     3:     <%= render partial: 'shared/read_feed_item', collection: @read_feed_items %>
+2014-10-14T23:19:02.764119+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.8ms)
+2014-10-14T23:19:02.774347+00:00 app[web.1]: : SELECT COUNT(*) FROM "posts"  WHERE (posts.id = (SELECT id FROM posts))
+2014-10-14T23:19:02.777092+00:00 app[web.1]: ActionView::Template::Error (PG::Error: ERROR:  more than one row returned by a subquery used as an expression
+2014-10-14T23:19:02.777103+00:00 app[web.1]: 
+2014-10-14T23:19:02.777115+00:00 app[web.1]:     4:   </ol>
+2014-10-14T23:19:02.764109+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.8ms)
+2014-10-14T23:19:02.774346+00:00 app[web.1]: PG::Error: ERROR:  more than one row returned by a subquery used as an expression
+2014-10-14T23:19:02.777089+00:00 app[web.1]: 
+2014-10-14T23:19:02.777101+00:00 app[web.1]:   app/views/static_pages/home.html.erb:16:in `_app_views_static_pages_home_html_erb__1799583688237809712_31370760'
+2014-10-14T23:19:02.768702+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-14T23:19:02.767933+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.6ms)
+2014-10-14T23:19:02.774966+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (4.2ms)
+2014-10-14T23:19:02.777104+00:00 app[web.1]: 
+2014-10-14T23:19:02.748722+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:19:02 +0000
+2014-10-14T23:19:02.770632+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.6ms)
+2014-10-14T23:19:02.775058+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (15.1ms)
+2014-10-14T23:19:02.748733+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:19:02 +0000
+2014-10-14T23:19:02.770654+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.6ms)
+2014-10-14T23:19:02.775077+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (15.1ms)
+2014-10-14T23:19:02.777097+00:00 app[web.1]:     3:     <%= render partial: 'shared/read_feed_item', collection: @read_feed_items %>
+2014-10-14T23:19:02.777113+00:00 app[web.1]:     2:   <ol class="posts">
+2014-10-14T23:19:02.768698+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-14T23:19:02.777094+00:00 app[web.1]:     1: <% if @read_feed_items.any? %>
+2014-10-14T23:19:02.777096+00:00 app[web.1]:     2:   <ol class="posts">
+2014-10-14T23:19:02.777109+00:00 app[web.1]: ActionView::Template::Error (PG::Error: ERROR:  more than one row returned by a subquery used as an expression
+2014-10-14T23:19:02.777110+00:00 app[web.1]: : SELECT COUNT(*) FROM "posts"  WHERE (posts.id = (SELECT id FROM posts))):
+2014-10-14T23:19:02.777112+00:00 app[web.1]:     1: <% if @read_feed_items.any? %>
+2014-10-14T23:19:02.777118+00:00 app[web.1]:   app/views/static_pages/home.html.erb:16:in `_app_views_static_pages_home_html_erb__1799583688237809712_31370760'
+2014-10-14T23:19:02.777119+00:00 app[web.1]: 
+2014-10-14T23:19:02.777120+00:00 app[web.1]: 
+2014-10-14T23:19:03.762383+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=91b79c23-ef1f-4ad3-8d06-82288264e92d fwd="1.39.15.57" dyno=web.1 connect=1ms service=4ms status=304 bytes=178
+2014-10-14T23:25:15+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-14T23:25:31.488301+00:00 heroku[api]: Release v9 created by hritikbhardwaj09@gmail.com
+2014-10-14T23:25:31+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-14T23:25:31.488256+00:00 heroku[api]: Deploy 759bcb1 by hritikbhardwaj09@gmail.com
+2014-10-14T23:25:31.690226+00:00 heroku[web.1]: State changed from up to starting
+2014-10-14T23:25:33.964449+00:00 app[web.1]: [2014-10-14 23:25:33] ERROR SignalException: SIGTERM
+2014-10-14T23:25:33.964456+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-14T23:25:34.718317+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 58920 -e production`
+2014-10-14T23:25:33.554817+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-14T23:25:39.984476+00:00 app[web.1]: [2014-10-14 23:25:39] INFO  WEBrick::HTTPServer#start: pid=2 port=58920
+2014-10-14T23:25:39.982151+00:00 app[web.1]: [2014-10-14 23:25:39] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-14T23:25:39.982127+00:00 app[web.1]: [2014-10-14 23:25:39] INFO  WEBrick 1.3.1
+2014-10-14T23:25:40.105878+00:00 heroku[web.1]: State changed from starting to up
+2014-10-14T23:25:43.885659+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-14T23:25:43.885825+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-14T23:25:44.945386+00:00 heroku[web.1]: Process exited with status 137
+2014-10-14T23:25:46.653292+00:00 heroku[api]: Scale to web=1 by hritikbhardwaj09@gmail.com
+2014-10-14T23:26:09.543310+00:00 app[web.1]: => Booting WEBrick
+2014-10-14T23:26:09.543317+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:58920
+2014-10-14T23:26:09.543318+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-14T23:26:09.543320+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-14T23:26:09.652050+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:26:09.543327+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:26:09 +0000
+2014-10-14T23:26:09.543321+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:26:09 +0000
+2014-10-14T23:26:09.652061+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:26:09.751073+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (11.9ms)
+2014-10-14T23:26:09.751083+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (11.9ms)
+2014-10-14T23:26:09.796110+00:00 app[web.1]:   Rendered shared/_stats.html.erb (44.3ms)
+2014-10-14T23:26:09.800564+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.5ms)
+2014-10-14T23:26:09.796120+00:00 app[web.1]:   Rendered shared/_stats.html.erb (44.3ms)
+2014-10-14T23:26:09.800572+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.5ms)
+2014-10-14T23:26:10.099857+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=e39cc849-38c0-4502-a9d3-639ce7b42cad fwd="1.39.15.57" dyno=web.1 connect=4ms service=560ms status=200 bytes=4862
+2014-10-14T23:26:10.082585+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (344.8ms)
+2014-10-14T23:26:10.090245+00:00 app[web.1]: Completed 200 OK in 438ms (Views: 301.1ms | ActiveRecord: 77.6ms)
+2014-10-14T23:26:10.082659+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (344.8ms)
+2014-10-14T23:26:10.085852+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-14T23:26:10.068532+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (271.6ms)
+2014-10-14T23:26:10.087916+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-14T23:26:10.068540+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (271.6ms)
+2014-10-14T23:26:10.090286+00:00 app[web.1]: Completed 200 OK in 438ms (Views: 301.1ms | ActiveRecord: 77.6ms)
+2014-10-14T23:26:10.082046+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (4.1ms)
+2014-10-14T23:26:10.087922+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-14T23:26:10.082059+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (4.1ms)
+2014-10-14T23:26:10.082394+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (13.1ms)
+2014-10-14T23:26:10.089888+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.9ms)
+2014-10-14T23:26:10.085844+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-14T23:26:10.082401+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (13.1ms)
+2014-10-14T23:26:10.089789+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.9ms)
+2014-10-14T23:26:10.773297+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=5b93c74b-1421-4c53-9be3-1e97edae3f0f fwd="1.39.15.57" dyno=web.1 connect=1ms service=23ms status=200 bytes=364246
+2014-10-14T23:26:10.859879+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=2174a93a-b0f6-433c-a146-c9ef2af5467c fwd="1.39.15.57" dyno=web.1 connect=30ms service=26ms status=200 bytes=134516
+2014-10-14T23:26:19.968169+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=d47c54d4-1bf0-43c2-8c3a-3f26017f6432 fwd="1.39.15.57" dyno=web.1 connect=1ms service=11ms status=200 bytes=273
+2014-10-14T23:26:27.313237+00:00 app[web.1]: Completed 500 Internal Server Error in 64ms
+2014-10-14T23:26:27.314891+00:00 app[web.1]:     3: $('#unread_count').html('<%= @post_count - @user.readings.count %>');
+2014-10-14T23:26:27.314914+00:00 app[web.1]:   app/controllers/posts_controller.rb:25:in `show'
+2014-10-14T23:26:27.246296+00:00 app[web.1]: Started GET "/posts/2" for 1.39.15.57 at 2014-10-14 23:26:27 +0000
+2014-10-14T23:26:27.314883+00:00 app[web.1]: 
+2014-10-14T23:26:27.314916+00:00 app[web.1]: 
+2014-10-14T23:26:27.249251+00:00 app[web.1]:   Parameters: {"id"=>"2"}
+2014-10-14T23:26:27.314893+00:00 app[web.1]:   app/views/posts/show.js.erb:2:in `_app_views_posts_show_js_erb___4464270930770474630_44403720'
+2014-10-14T23:26:27.314908+00:00 app[web.1]:     2: $('#read_count').html('<%= @user.readings.count %>');
+2014-10-14T23:26:27.313254+00:00 app[web.1]: Completed 500 Internal Server Error in 64ms
+2014-10-14T23:26:27.314895+00:00 app[web.1]:   app/controllers/posts_controller.rb:26:in `block (2 levels) in show'
+2014-10-14T23:26:27.314911+00:00 app[web.1]:   app/views/posts/show.js.erb:2:in `_app_views_posts_show_js_erb___4464270930770474630_44403720'
+2014-10-14T23:26:27.246289+00:00 app[web.1]: Started GET "/posts/2" for 1.39.15.57 at 2014-10-14 23:26:27 +0000
+2014-10-14T23:26:27.314887+00:00 app[web.1]: ActionView::Template::Error (undefined method `readings' for nil:NilClass):
+2014-10-14T23:26:27.314906+00:00 app[web.1]:     1: $('#content_<%= params[:id] %>').show();
+2014-10-14T23:26:27.249183+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:26:27.314888+00:00 app[web.1]:     1: $('#content_<%= params[:id] %>').show();
+2014-10-14T23:26:27.313123+00:00 app[web.1]:   Rendered posts/show.js.erb (1.1ms)
+2014-10-14T23:26:27.314890+00:00 app[web.1]:     2: $('#read_count').html('<%= @user.readings.count %>');
+2014-10-14T23:26:27.314913+00:00 app[web.1]:   app/controllers/posts_controller.rb:26:in `block (2 levels) in show'
+2014-10-14T23:26:27.313134+00:00 app[web.1]:   Rendered posts/show.js.erb (1.1ms)
+2014-10-14T23:26:27.314909+00:00 app[web.1]:     3: $('#unread_count').html('<%= @post_count - @user.readings.count %>');
+2014-10-14T23:26:27.249205+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:26:27.314896+00:00 app[web.1]:   app/controllers/posts_controller.rb:25:in `show'
+2014-10-14T23:26:27.314898+00:00 app[web.1]: 
+2014-10-14T23:26:27.314899+00:00 app[web.1]: 
+2014-10-14T23:26:27.314904+00:00 app[web.1]: 
+2014-10-14T23:26:27.314917+00:00 app[web.1]: 
+2014-10-14T23:26:27.249234+00:00 app[web.1]:   Parameters: {"id"=>"2"}
+2014-10-14T23:26:27.314905+00:00 app[web.1]: ActionView::Template::Error (undefined method `readings' for nil:NilClass):
+2014-10-14T23:26:27.316667+00:00 heroku[router]: at=info method=GET path="/posts/2" host=damp-reaches-6996.herokuapp.com request_id=b5666a2d-0727-4e19-b487-5f083b4c4fb5 fwd="1.39.15.57" dyno=web.1 connect=1ms service=73ms status=500 bytes=1027
+2014-10-14T23:26:34.633605+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=37ac4d06-efa7-450e-a2d9-41c94acc321d fwd="1.39.15.57" dyno=web.1 connect=1ms service=6ms status=304 bytes=178
+2014-10-14T23:26:44.568380+00:00 heroku[router]: at=info method=GET path="/posts/1" host=damp-reaches-6996.herokuapp.com request_id=77429f82-1284-4fc6-adcd-a98ede039e5c fwd="1.39.15.57" dyno=web.1 connect=1ms service=34ms status=500 bytes=1027
+2014-10-14T23:26:44.544419+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:26:44.566024+00:00 app[web.1]:   app/views/posts/show.js.erb:2:in `_app_views_posts_show_js_erb___4464270930770474630_44403720'
+2014-10-14T23:26:44.566065+00:00 app[web.1]:     3: $('#unread_count').html('<%= @post_count - @user.readings.count %>');
+2014-10-14T23:26:44.544430+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:26:44.566030+00:00 app[web.1]: 
+2014-10-14T23:26:44.566072+00:00 app[web.1]: 
+2014-10-14T23:26:44.564097+00:00 app[web.1]:   Rendered posts/show.js.erb (0.8ms)
+2014-10-14T23:26:44.566028+00:00 app[web.1]: 
+2014-10-14T23:26:44.566062+00:00 app[web.1]:     1: $('#content_<%= params[:id] %>').show();
+2014-10-14T23:26:44.564214+00:00 app[web.1]: Completed 500 Internal Server Error in 20ms
+2014-10-14T23:26:44.566034+00:00 app[web.1]: 
+2014-10-14T23:26:44.564108+00:00 app[web.1]:   Rendered posts/show.js.erb (0.8ms)
+2014-10-14T23:26:44.566017+00:00 app[web.1]: ActionView::Template::Error (undefined method `readings' for nil:NilClass):
+2014-10-14T23:26:44.566022+00:00 app[web.1]:     3: $('#unread_count').html('<%= @post_count - @user.readings.count %>');
+2014-10-14T23:26:44.566071+00:00 app[web.1]: 
+2014-10-14T23:26:44.564234+00:00 app[web.1]: Completed 500 Internal Server Error in 20ms
+2014-10-14T23:26:44.566061+00:00 app[web.1]: ActionView::Template::Error (undefined method `readings' for nil:NilClass):
+2014-10-14T23:26:44.538469+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:26:44 +0000
+2014-10-14T23:26:44.566021+00:00 app[web.1]:     2: $('#read_count').html('<%= @user.readings.count %>');
+2014-10-14T23:26:44.566064+00:00 app[web.1]:     2: $('#read_count').html('<%= @user.readings.count %>');
+2014-10-14T23:26:44.538463+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:26:44 +0000
+2014-10-14T23:26:44.566014+00:00 app[web.1]: 
+2014-10-14T23:26:44.566019+00:00 app[web.1]:     1: $('#content_<%= params[:id] %>').show();
+2014-10-14T23:26:44.566070+00:00 app[web.1]:   app/controllers/posts_controller.rb:25:in `show'
+2014-10-14T23:26:44.544432+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:26:44.566025+00:00 app[web.1]:   app/controllers/posts_controller.rb:26:in `block (2 levels) in show'
+2014-10-14T23:26:44.566067+00:00 app[web.1]:   app/views/posts/show.js.erb:2:in `_app_views_posts_show_js_erb___4464270930770474630_44403720'
+2014-10-14T23:26:44.544433+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:26:44.566027+00:00 app[web.1]:   app/controllers/posts_controller.rb:25:in `show'
+2014-10-14T23:26:44.566068+00:00 app[web.1]:   app/controllers/posts_controller.rb:26:in `block (2 levels) in show'
+2014-10-14T23:56:43+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-14T23:57:00.146685+00:00 heroku[api]: Deploy e1357a1 by hritikbhardwaj09@gmail.com
+2014-10-14T23:57:00.146732+00:00 heroku[api]: Release v10 created by hritikbhardwaj09@gmail.com
+2014-10-14T23:57:00+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-14T23:57:00.418999+00:00 heroku[web.1]: State changed from up to starting
+2014-10-14T23:57:03.894271+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-14T23:57:04.285754+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 4102 -e production`
+2014-10-14T23:57:04.616762+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-14T23:57:04.616757+00:00 app[web.1]: [2014-10-14 23:57:04] ERROR SignalException: SIGTERM
+2014-10-14T23:57:09.626459+00:00 app[web.1]: [2014-10-14 23:57:09] INFO  WEBrick 1.3.1
+2014-10-14T23:57:09.627123+00:00 app[web.1]: [2014-10-14 23:57:09] INFO  WEBrick::HTTPServer#start: pid=2 port=4102
+2014-10-14T23:57:09.626551+00:00 app[web.1]: [2014-10-14 23:57:09] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-14T23:57:10.027023+00:00 heroku[web.1]: State changed from starting to up
+2014-10-14T23:57:14.349117+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-14T23:57:14.348917+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-14T23:57:15.875630+00:00 heroku[web.1]: Process exited with status 137
+2014-10-14T23:57:31.131049+00:00 heroku[api]: Scale to web=1 by hritikbhardwaj09@gmail.com
+2014-10-14T23:57:42.088017+00:00 app[web.1]: => Booting WEBrick
+2014-10-14T23:57:42.261386+00:00 app[web.1]:   Rendered shared/_stats.html.erb (11.8ms)
+2014-10-14T23:57:42.088023+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:4102
+2014-10-14T23:57:42.088025+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-14T23:57:42.264344+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.4ms)
+2014-10-14T23:57:42.088027+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-14T23:57:42.148571+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:57:42.088074+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:57:42 +0000
+2014-10-14T23:57:42.264339+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.4ms)
+2014-10-14T23:57:42.088028+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:57:42 +0000
+2014-10-14T23:57:42.261399+00:00 app[web.1]:   Rendered shared/_stats.html.erb (11.8ms)
+2014-10-14T23:57:42.148579+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:57:42.248804+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (11.5ms)
+2014-10-14T23:57:42.248790+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (11.5ms)
+2014-10-14T23:57:42.594247+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=6ff19f2d-5253-4f6e-887d-e1f1ad83238c fwd="1.39.15.57" dyno=web.1 connect=2ms service=512ms status=200 bytes=4817
+2014-10-14T23:57:42.571128+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (308.9ms)
+2014-10-14T23:57:42.583730+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (11.6ms)
+2014-10-14T23:57:42.571202+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (308.9ms)
+2014-10-14T23:57:42.583574+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (2.3ms)
+2014-10-14T23:57:42.583839+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (347.9ms)
+2014-10-14T23:57:42.583867+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (347.9ms)
+2014-10-14T23:57:42.583712+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (11.6ms)
+2014-10-14T23:57:42.586626+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-14T23:57:42.586637+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-14T23:57:42.583504+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (2.3ms)
+2014-10-14T23:57:42.588917+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-14T23:57:42.589026+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-14T23:57:42.590967+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.9ms)
+2014-10-14T23:57:42.590972+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.9ms)
+2014-10-14T23:57:42.591360+00:00 app[web.1]: Completed 200 OK in 443ms (Views: 336.0ms | ActiveRecord: 52.9ms)
+2014-10-14T23:57:42.591364+00:00 app[web.1]: Completed 200 OK in 443ms (Views: 336.0ms | ActiveRecord: 52.9ms)
+2014-10-14T23:57:43.318430+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=3e1d5904-b621-4b4b-a99f-36d6790926ac fwd="1.39.15.57" dyno=web.1 connect=1ms service=15ms status=200 bytes=134516
+2014-10-14T23:57:43.346461+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=bd250234-76c8-4e49-b17d-d44477de7776 fwd="1.39.15.57" dyno=web.1 connect=1ms service=28ms status=200 bytes=364246
+2014-10-14T23:57:46.208234+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=2968c197-fbde-4423-aa31-bd76a10b05a5 fwd="1.39.15.57" dyno=web.1 connect=3ms service=5ms status=200 bytes=273
+2014-10-14T23:57:55.342563+00:00 heroku[router]: at=info method=GET path="/posts/1" host=damp-reaches-6996.herokuapp.com request_id=a00aa50d-1860-4dec-84af-5e90b928374f fwd="1.39.15.57" dyno=web.1 connect=3ms service=63ms status=200 bytes=638
+2014-10-14T23:57:55.281266+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:57:55 +0000
+2014-10-14T23:57:55.338770+00:00 app[web.1]: Completed 200 OK in 54ms (Views: 2.0ms | ActiveRecord: 11.7ms)
+2014-10-14T23:57:55.284622+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:57:55.338508+00:00 app[web.1]:   Rendered posts/show.js.erb (0.6ms)
+2014-10-14T23:57:55.284578+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:57:55.281277+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:57:55 +0000
+2014-10-14T23:57:55.338765+00:00 app[web.1]: Completed 200 OK in 54ms (Views: 2.0ms | ActiveRecord: 11.7ms)
+2014-10-14T23:57:55.284584+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:57:55.338519+00:00 app[web.1]:   Rendered posts/show.js.erb (0.6ms)
+2014-10-14T23:57:55.284607+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:58:01.732439+00:00 heroku[router]: at=info method=GET path="/posts/2" host=damp-reaches-6996.herokuapp.com request_id=97441418-0b32-4b5d-90a0-d0444b4729a2 fwd="1.39.15.57" dyno=web.1 connect=2ms service=40ms status=200 bytes=638
+2014-10-14T23:58:01.704402+00:00 app[web.1]:   Parameters: {"id"=>"2"}
+2014-10-14T23:58:01.704167+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:58:01.704206+00:00 app[web.1]:   Parameters: {"id"=>"2"}
+2014-10-14T23:58:01.727106+00:00 app[web.1]:   Rendered posts/show.js.erb (0.2ms)
+2014-10-14T23:58:01.704154+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:58:01.698671+00:00 app[web.1]: Started GET "/posts/2" for 1.39.15.57 at 2014-10-14 23:58:01 +0000
+2014-10-14T23:58:01.698665+00:00 app[web.1]: Started GET "/posts/2" for 1.39.15.57 at 2014-10-14 23:58:01 +0000
+2014-10-14T23:58:01.727491+00:00 app[web.1]: Completed 200 OK in 23ms (Views: 1.3ms | ActiveRecord: 7.9ms)
+2014-10-14T23:58:01.727116+00:00 app[web.1]:   Rendered posts/show.js.erb (0.2ms)
+2014-10-14T23:58:01.727432+00:00 app[web.1]: Completed 200 OK in 23ms (Views: 1.3ms | ActiveRecord: 7.9ms)
+2014-10-14T23:58:55.868309+00:00 heroku[router]: at=info method=POST path="/posts" host=damp-reaches-6996.herokuapp.com request_id=7c506fa8-5b04-4b30-ac7e-0f19456c4da6 fwd="1.39.15.57" dyno=web.1 connect=6ms service=27ms status=302 bytes=1197
+2014-10-14T23:58:55.863019+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-14T23:58:55.863211+00:00 app[web.1]: Completed 302 Found in 14ms (ActiveRecord: 7.3ms)
+2014-10-14T23:58:55.848988+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6DDmclbYAbUs5OUn7DsUdNJDqJU2et3pdm/Qaf1DhXE=", "post"=>{"content"=>"kkkkk", "title"=>"third post"}, "commit"=>"Post"}
+2014-10-14T23:58:55.845688+00:00 app[web.1]: Started POST "/posts" for 1.39.15.57 at 2014-10-14 23:58:55 +0000
+2014-10-14T23:58:55.863235+00:00 app[web.1]: Completed 302 Found in 14ms (ActiveRecord: 7.3ms)
+2014-10-14T23:58:55.849013+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6DDmclbYAbUs5OUn7DsUdNJDqJU2et3pdm/Qaf1DhXE=", "post"=>{"content"=>"kkkkk", "title"=>"third post"}, "commit"=>"Post"}
+2014-10-14T23:58:55.848912+00:00 app[web.1]: Processing by PostsController#create as HTML
+2014-10-14T23:58:55.848921+00:00 app[web.1]: Processing by PostsController#create as HTML
+2014-10-14T23:58:55.845679+00:00 app[web.1]: Started POST "/posts" for 1.39.15.57 at 2014-10-14 23:58:55 +0000
+2014-10-14T23:58:55.863029+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-14T23:58:56.240900+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.1ms)
+2014-10-14T23:58:56.247597+00:00 app[web.1]:   Rendered shared/_stats.html.erb (6.4ms)
+2014-10-14T23:58:56.247605+00:00 app[web.1]:   Rendered shared/_stats.html.erb (6.4ms)
+2014-10-14T23:58:56.228955+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:58:56 +0000
+2014-10-14T23:58:56.228966+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-14 23:58:56 +0000
+2014-10-14T23:58:56.231804+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:58:56.231811+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-14T23:58:56.240949+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.1ms)
+2014-10-14T23:58:56.248378+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-14T23:58:56.250201+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.4ms)
+2014-10-14T23:58:56.250205+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.4ms)
+2014-10-14T23:58:56.256402+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-14T23:58:56.256412+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-14T23:58:56.256493+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (6.2ms)
+2014-10-14T23:58:56.256508+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (6.2ms)
+2014-10-14T23:58:56.256593+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (19.0ms)
+2014-10-14T23:58:56.256611+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (19.0ms)
+2014-10-14T23:58:56.257299+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:58:56.258169+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:58:56.248380+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-14T23:58:56.258203+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:58:56.258522+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:58:56.258537+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:58:56.258824+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 13.6ms | ActiveRecord: 10.0ms)
+2014-10-14T23:58:56.257303+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:58:56.258830+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 13.6ms | ActiveRecord: 10.0ms)
+2014-10-14T23:58:56.263037+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=0a585d3d-bc12-446d-bb0f-9cec31067a3d fwd="1.39.15.57" dyno=web.1 connect=2ms service=36ms status=200 bytes=5323
+2014-10-14T23:58:57.611835+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=6691ab6d-fb6b-45d4-83e5-f75ced758077 fwd="1.39.15.57" dyno=web.1 connect=1ms service=7ms status=304 bytes=178
+2014-10-14T23:58:58.169182+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=f9cce0b6-4875-4c62-9a7f-35c94a394c7a fwd="1.39.15.57" dyno=web.1 connect=1ms service=4ms status=304 bytes=178
+2014-10-14T23:58:58.884388+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=b8abbc32-57e1-46ed-a79e-5d6d2a26c613 fwd="1.39.15.57" dyno=web.1 connect=2ms service=4ms status=304 bytes=178
+2014-10-14T23:59:20.867373+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:59:20.881805+00:00 heroku[router]: at=info method=GET path="/posts/1" host=damp-reaches-6996.herokuapp.com request_id=18a382b9-01f6-4c7d-8df8-b9339650b098 fwd="1.39.15.57" dyno=web.1 connect=2ms service=18ms status=200 bytes=638
+2014-10-14T23:59:20.865144+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:59:20 +0000
+2014-10-14T23:59:20.877105+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:59:20.865137+00:00 app[web.1]: Started GET "/posts/1" for 1.39.15.57 at 2014-10-14 23:59:20 +0000
+2014-10-14T23:59:20.877299+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 5.1ms)
+2014-10-14T23:59:20.877111+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:59:20.877282+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 5.1ms)
+2014-10-14T23:59:20.867404+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:59:20.867378+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:59:20.867418+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:59:24.487750+00:00 heroku[router]: at=info method=GET path="/posts/2" host=damp-reaches-6996.herokuapp.com request_id=b9fdc57c-abeb-4bd1-804e-e44ba4ac07e6 fwd="1.39.15.57" dyno=web.1 connect=2ms service=17ms status=200 bytes=638
+2014-10-14T23:59:24.472335+00:00 app[web.1]: Started GET "/posts/2" for 1.39.15.57 at 2014-10-14 23:59:24 +0000
+2014-10-14T23:59:24.474932+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:59:24.474937+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:59:24.474960+00:00 app[web.1]:   Parameters: {"id"=>"2"}
+2014-10-14T23:59:24.474978+00:00 app[web.1]:   Parameters: {"id"=>"2"}
+2014-10-14T23:59:24.472347+00:00 app[web.1]: Started GET "/posts/2" for 1.39.15.57 at 2014-10-14 23:59:24 +0000
+2014-10-14T23:59:24.483456+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:59:24.483654+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 5.0ms)
+2014-10-14T23:59:24.483676+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 5.0ms)
+2014-10-14T23:59:24.483462+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:59:28.041081+00:00 app[web.1]: Started GET "/posts/3" for 1.39.15.57 at 2014-10-14 23:59:28 +0000
+2014-10-14T23:59:28.042837+00:00 app[web.1]:   Parameters: {"id"=>"3"}
+2014-10-14T23:59:28.041090+00:00 app[web.1]: Started GET "/posts/3" for 1.39.15.57 at 2014-10-14 23:59:28 +0000
+2014-10-14T23:59:28.059286+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 0.7ms | ActiveRecord: 10.6ms)
+2014-10-14T23:59:28.042809+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:59:28.042814+00:00 app[web.1]: Processing by PostsController#show as JS
+2014-10-14T23:59:28.059072+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:59:28.059078+00:00 app[web.1]:   Rendered posts/show.js.erb (0.1ms)
+2014-10-14T23:59:28.059308+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 0.7ms | ActiveRecord: 10.6ms)
+2014-10-14T23:59:28.042854+00:00 app[web.1]:   Parameters: {"id"=>"3"}
+2014-10-14T23:59:28.062228+00:00 heroku[router]: at=info method=GET path="/posts/3" host=damp-reaches-6996.herokuapp.com request_id=a864ccd2-7d12-4ab3-9064-db110e9cd679 fwd="1.39.15.57" dyno=web.1 connect=2ms service=23ms status=200 bytes=638
+2014-10-14T23:59:37.825959+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.4ms)
+2014-10-14T23:59:37.881325+00:00 app[web.1]:   Rendered posts/_post.html.erb (40.9ms)
+2014-10-14T23:59:37.813735+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:59:37.881441+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (60.3ms)
+2014-10-14T23:59:37.881459+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (60.3ms)
+2014-10-14T23:59:37.883500+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-14T23:59:37.883506+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-14T23:59:37.885735+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-14T23:59:37.885743+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-14T23:59:37.887144+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-14T23:59:37.881355+00:00 app[web.1]:   Rendered posts/_post.html.erb (40.9ms)
+2014-10-14T23:59:37.887150+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-14T23:59:37.813676+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:59:37.813681+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:59:37.825969+00:00 app[web.1]:   Rendered shared/_stats.html.erb (3.4ms)
+2014-10-14T23:59:37.813721+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:59:37.810273+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:59:37 +0000
+2014-10-14T23:59:37.810263+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:59:37 +0000
+2014-10-14T23:59:37.887481+00:00 app[web.1]: Completed 200 OK in 74ms (Views: 59.6ms | ActiveRecord: 10.7ms)
+2014-10-14T23:59:37.887487+00:00 app[web.1]: Completed 200 OK in 74ms (Views: 59.6ms | ActiveRecord: 10.7ms)
+2014-10-14T23:59:37.890571+00:00 heroku[router]: at=info method=GET path="/users/1" host=damp-reaches-6996.herokuapp.com request_id=58baba58-76b7-402b-8923-fd5a326b653f fwd="1.39.15.57" dyno=web.1 connect=2ms service=82ms status=200 bytes=4134
+2014-10-14T23:59:38.385663+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=fc12b4b0-1132-4c2d-8ee4-d296d4b7aa9f fwd="1.39.15.57" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-14T23:59:38.589905+00:00 app[web.1]:   Rendered posts/_post.html.erb (7.6ms)
+2014-10-14T23:59:38.592617+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 15.4ms | ActiveRecord: 8.4ms)
+2014-10-14T23:59:38.565139+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:59:38.592295+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:59:38.596278+00:00 heroku[router]: at=info method=GET path="/users/1" host=damp-reaches-6996.herokuapp.com request_id=417756ff-d7fe-402f-bfad-6a3279b9bfdd fwd="1.39.15.57" dyno=web.1 connect=2ms service=36ms status=304 bytes=893
+2014-10-14T23:59:38.562447+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:59:38 +0000
+2014-10-14T23:59:38.590038+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (17.2ms)
+2014-10-14T23:59:38.565100+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:59:38.591058+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:59:38.562438+00:00 app[web.1]: Started GET "/users/1" for 1.39.15.57 at 2014-10-14 23:59:38 +0000
+2014-10-14T23:59:38.590033+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (17.2ms)
+2014-10-14T23:59:38.592619+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 15.4ms | ActiveRecord: 8.4ms)
+2014-10-14T23:59:38.576583+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.8ms)
+2014-10-14T23:59:38.591941+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:59:38.576573+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.8ms)
+2014-10-14T23:59:38.591934+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-14T23:59:38.565124+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2014-10-14T23:59:38.589895+00:00 app[web.1]:   Rendered posts/_post.html.erb (7.6ms)
+2014-10-14T23:59:38.592310+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-14T23:59:38.565094+00:00 app[web.1]: Processing by UsersController#show as HTML
+2014-10-14T23:59:38.591056+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-14T23:59:41.598850+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=2d1e7e4a-ea89-4621-8c61-3df14ee4dfa2 fwd="1.39.15.57" dyno=web.1 connect=2ms service=9ms status=304 bytes=178
+2014-10-14T23:59:43.679806+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=1638be93-c0fc-42bc-809b-e24df984383d fwd="1.39.15.57" dyno=web.1 connect=1ms service=13ms status=304 bytes=178
+2014-10-15T00:01:27.496682+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=613f6e3b-b512-41d7-8def-121bfa60dc75 fwd="1.39.15.57" dyno=web.1 connect=1ms service=6ms status=304 bytes=178
+2014-10-15T00:01:27.411095+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.5ms)
+2014-10-15T00:01:27.424687+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (2.3ms)
+2014-10-15T00:01:27.387500+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:01:27 +0000
+2014-10-15T00:01:27.415965+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (4.2ms)
+2014-10-15T00:01:27.426758+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.9ms)
+2014-10-15T00:01:27.413973+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.5ms)
+2014-10-15T00:01:27.425697+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T00:01:27.396876+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:01:27.424810+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (8.1ms)
+2014-10-15T00:01:27.427169+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:01:27.411100+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.5ms)
+2014-10-15T00:01:27.424908+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (21.7ms)
+2014-10-15T00:01:27.408454+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.9ms)
+2014-10-15T00:01:27.424891+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (21.7ms)
+2014-10-15T00:01:27.427501+00:00 app[web.1]: Completed 200 OK in 31ms (Views: 20.9ms | ActiveRecord: 6.2ms)
+2014-10-15T00:01:27.396868+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:01:27.424793+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (8.1ms)
+2014-10-15T00:01:27.427164+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:01:28.776256+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=357445a5-b812-4523-a958-fc99bcba67b0 fwd="1.39.15.57" dyno=web.1 connect=0ms service=4ms status=304 bytes=178
+2014-10-15T00:01:27.408465+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (3.9ms)
+2014-10-15T00:01:27.424678+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (2.3ms)
+2014-10-15T00:01:27.387455+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:01:27 +0000
+2014-10-15T00:01:27.415959+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (4.2ms)
+2014-10-15T00:01:27.426751+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.9ms)
+2014-10-15T00:01:27.413980+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.5ms)
+2014-10-15T00:01:27.425693+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T00:01:27.427497+00:00 app[web.1]: Completed 200 OK in 31ms (Views: 20.9ms | ActiveRecord: 6.2ms)
+2014-10-15T00:01:27.430876+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=61cba13f-8681-4407-8e67-4aee8df955db fwd="1.39.15.57" dyno=web.1 connect=1ms service=45ms status=200 bytes=5091
+2014-10-15T00:01:28.381433+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-15T00:01:28.367310+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:01:28 +0000
+2014-10-15T00:01:28.389258+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (5.8ms)
+2014-10-15T00:01:28.391632+00:00 app[web.1]: Completed 200 OK in 22ms (Views: 12.7ms | ActiveRecord: 5.8ms)
+2014-10-15T00:01:28.369306+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:01:28.383327+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.5ms)
+2014-10-15T00:01:28.391021+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-15T00:01:28.381440+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-15T00:01:28.389143+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-15T00:01:28.380653+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.5ms)
+2014-10-15T00:01:28.390082+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T00:01:28.369340+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:01:28.389138+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-15T00:01:28.391347+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:01:28.380648+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.5ms)
+2014-10-15T00:01:28.389376+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (14.0ms)
+2014-10-15T00:01:28.389395+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (14.0ms)
+2014-10-15T00:01:28.391636+00:00 app[web.1]: Completed 200 OK in 22ms (Views: 12.7ms | ActiveRecord: 5.8ms)
+2014-10-15T00:01:28.367303+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:01:28 +0000
+2014-10-15T00:01:28.383322+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.5ms)
+2014-10-15T00:01:28.378063+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (2.4ms)
+2014-10-15T00:01:28.390086+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T00:01:28.391008+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-15T00:01:28.391351+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:01:28.378054+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (2.4ms)
+2014-10-15T00:01:28.389278+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (5.8ms)
+2014-10-15T00:01:28.047612+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:01:28.045027+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:01:28 +0000
+2014-10-15T00:01:28.060115+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-15T00:01:28.074089+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=206a80f8-51dd-4d95-9729-38a9d49a6cfb fwd="1.39.15.57" dyno=web.1 connect=11ms service=31ms status=304 bytes=886
+2014-10-15T00:01:28.045084+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:01:28 +0000
+2014-10-15T00:01:28.062318+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.8ms)
+2014-10-15T00:01:28.069012+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (6.5ms)
+2014-10-15T00:01:28.069096+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (15.3ms)
+2014-10-15T00:01:28.059304+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.4ms)
+2014-10-15T00:01:28.056733+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (2.5ms)
+2014-10-15T00:01:28.068905+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-15T00:01:28.394438+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=c01d5996-b8e0-4f3d-9cb7-c2e428bdb3c7 fwd="1.39.15.57" dyno=web.1 connect=1ms service=28ms status=304 bytes=886
+2014-10-15T00:01:28.047606+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:01:28.069111+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (15.3ms)
+2014-10-15T00:01:28.069955+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T00:01:28.059309+00:00 app[web.1]:   Rendered shared/_stats.html.erb (2.4ms)
+2014-10-15T00:01:28.068993+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (6.5ms)
+2014-10-15T00:01:28.060109+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.0ms)
+2014-10-15T00:01:28.069959+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T00:01:28.070869+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-15T00:01:28.070876+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-10-15T00:01:28.071213+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:01:28.071217+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:01:28.071499+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 13.7ms | ActiveRecord: 6.4ms)
+2014-10-15T00:01:28.071503+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 13.7ms | ActiveRecord: 6.4ms)
+2014-10-15T00:01:28.056726+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (2.5ms)
+2014-10-15T00:01:28.062323+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (2.8ms)
+2014-10-15T00:01:28.068899+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (1.6ms)
+2014-10-15T00:01:29.073153+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=25a911fa-e8bc-4be5-92a4-b78275582889 fwd="1.39.15.57" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-15T00:05:42.571529+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=b6d90f43-7b51-4a00-b53b-48c4c628dba0 fwd="54.161.48.225" dyno=web.1 connect=2ms service=6ms status=301 bytes=234
+2014-10-15T00:05:42.654147+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a3493afc-1468-47fc-a43c-b56b7b8355f3 fwd="54.161.48.225" dyno=web.1 connect=2ms service=59ms status=200 bytes=2486
+2014-10-15T00:05:42.597172+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:05:42 +0000
+2014-10-15T00:05:42.597179+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:05:42 +0000
+2014-10-15T00:05:42.599504+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T00:05:42.599510+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T00:05:42.614886+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+2014-10-15T00:05:42.622317+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.5ms)
+2014-10-15T00:05:42.622327+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.5ms)
+2014-10-15T00:05:42.628253+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.8ms)
+2014-10-15T00:05:42.628261+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.8ms)
+2014-10-15T00:05:42.645452+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (13.6ms)
+2014-10-15T00:05:42.645461+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (13.6ms)
+2014-10-15T00:05:42.646068+00:00 app[web.1]: Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 1.2ms)
+2014-10-15T00:05:42.646121+00:00 app[web.1]: Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 1.2ms)
+2014-10-15T00:05:42.616692+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+2014-10-15T00:15:27+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-15T00:15:44.664202+00:00 heroku[api]: Deploy 56cad5e by hritikbhardwaj09@gmail.com
+2014-10-15T00:15:44.664282+00:00 heroku[api]: Release v11 created by hritikbhardwaj09@gmail.com
+2014-10-15T00:15:44+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-15T00:15:44.783542+00:00 heroku[web.1]: State changed from up to starting
+2014-10-15T00:15:47.597285+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-15T00:15:47.597278+00:00 app[web.1]: [2014-10-15 00:15:47] ERROR SignalException: SIGTERM
+2014-10-15T00:15:47.067305+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-15T00:15:49.027344+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 4260 -e production`
+2014-10-15T00:15:56.077346+00:00 app[web.1]: [2014-10-15 00:15:56] INFO  WEBrick::HTTPServer#start: pid=2 port=4260
+2014-10-15T00:15:56.076876+00:00 app[web.1]: [2014-10-15 00:15:56] INFO  WEBrick 1.3.1
+2014-10-15T00:15:56.076898+00:00 app[web.1]: [2014-10-15 00:15:56] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-15T00:15:56.516835+00:00 heroku[web.1]: State changed from starting to up
+2014-10-15T00:15:57.140901+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-15T00:15:57.140707+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-15T00:15:58.579151+00:00 heroku[web.1]: Process exited with status 137
+2014-10-15T00:16:02.605013+00:00 heroku[api]: Scale to web=1 by hritikbhardwaj09@gmail.com
+2014-10-15T00:16:11.077779+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:4260
+2014-10-15T00:16:11.077782+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-15T00:16:11.077781+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-15T00:16:11.169150+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:16:11.169141+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:16:11.077783+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:16:11 +0000
+2014-10-15T00:16:11.077788+00:00 app[web.1]: Started GET "/" for 1.39.15.57 at 2014-10-15 00:16:11 +0000
+2014-10-15T00:16:11.077775+00:00 app[web.1]: => Booting WEBrick
+2014-10-15T00:16:11.412806+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.7ms)
+2014-10-15T00:16:11.332757+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (66.9ms)
+2014-10-15T00:16:11.332765+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (66.9ms)
+2014-10-15T00:16:11.412753+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.7ms)
+2014-10-15T00:16:11.379478+00:00 app[web.1]:   Rendered shared/_stats.html.erb (37.6ms)
+2014-10-15T00:16:11.379469+00:00 app[web.1]:   Rendered shared/_stats.html.erb (37.6ms)
+2014-10-15T00:16:12.092115+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=86364953-25e9-4828-ab1a-e42ace2ff8ef fwd="1.39.15.57" dyno=web.1 connect=2ms service=1022ms status=200 bytes=5094
+2014-10-15T00:16:12.056441+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (658.2ms)
+2014-10-15T00:16:12.084948+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:16:12.080199+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (816.0ms)
+2014-10-15T00:16:12.082622+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T00:16:12.086181+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.5ms)
+2014-10-15T00:16:12.082668+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T00:16:12.086555+00:00 app[web.1]: Completed 200 OK in 917ms (Views: 771.4ms | ActiveRecord: 89.1ms)
+2014-10-15T00:16:12.080004+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (22.0ms)
+2014-10-15T00:16:12.084990+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:16:12.086221+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.5ms)
+2014-10-15T00:16:12.056512+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (658.2ms)
+2014-10-15T00:16:12.086590+00:00 app[web.1]: Completed 200 OK in 917ms (Views: 771.4ms | ActiveRecord: 89.1ms)
+2014-10-15T00:16:12.080136+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (816.0ms)
+2014-10-15T00:16:12.072972+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (2.1ms)
+2014-10-15T00:16:12.079961+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (22.0ms)
+2014-10-15T00:16:12.073611+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (2.1ms)
+2014-10-15T00:16:12.832196+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=7b1d831d-806e-424d-ad41-a13ee27456b4 fwd="1.39.15.57" dyno=web.1 connect=1ms service=20ms status=200 bytes=134516
+2014-10-15T00:16:12.907576+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=ae4774a1-3ea0-46eb-88cf-fd35cbd51c04 fwd="1.39.15.57" dyno=web.1 connect=1ms service=60ms status=200 bytes=364246
+2014-10-15T00:16:15.625646+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=e5c0d6b4-b124-4c60-b991-813277e8ae0d fwd="1.39.15.57" dyno=web.1 connect=1ms service=10ms status=200 bytes=273
+2014-10-15T00:32:32.044677+00:00 app[web.1]: Started GET "/" for 121.247.250.208 at 2014-10-15 00:32:32 +0000
+2014-10-15T00:32:32.044684+00:00 app[web.1]: Started GET "/" for 121.247.250.208 at 2014-10-15 00:32:32 +0000
+2014-10-15T00:32:32.054879+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:32:32.054888+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:32:32.090626+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (16.0ms)
+2014-10-15T00:32:32.090638+00:00 app[web.1]:   Rendered shared/_user_info.html.erb (16.0ms)
+2014-10-15T00:32:32.097887+00:00 app[web.1]:   Rendered shared/_stats.html.erb (7.0ms)
+2014-10-15T00:32:32.097899+00:00 app[web.1]:   Rendered shared/_stats.html.erb (7.0ms)
+2014-10-15T00:32:32.107172+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-15T00:32:32.107183+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-15T00:32:32.117712+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (17.1ms)
+2014-10-15T00:32:32.117722+00:00 app[web.1]:   Rendered shared/_post_form.html.erb (17.1ms)
+2014-10-15T00:32:32.137131+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (6.9ms)
+2014-10-15T00:32:32.137140+00:00 app[web.1]:   Rendered shared/_read_feed_item.html.erb (6.9ms)
+2014-10-15T00:32:32.137273+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (19.4ms)
+2014-10-15T00:32:32.137299+00:00 app[web.1]:   Rendered shared/_read_feed.html.erb (19.4ms)
+2014-10-15T00:32:32.137422+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (63.1ms)
+2014-10-15T00:32:32.141560+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:32:32.141590+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:32:32.143532+00:00 app[web.1]: Completed 200 OK in 88ms (Views: 50.2ms | ActiveRecord: 22.8ms)
+2014-10-15T00:32:32.143541+00:00 app[web.1]: Completed 200 OK in 88ms (Views: 50.2ms | ActiveRecord: 22.8ms)
+2014-10-15T00:32:32.137446+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (63.1ms)
+2014-10-15T00:32:32.140157+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T00:32:32.140168+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T00:32:32.141220+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.9ms)
+2014-10-15T00:32:32.141228+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.9ms)
+2014-10-15T00:32:32.151786+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=da37fe4c-c634-4d44-a130-3acbc9a9beed fwd="121.247.250.208" dyno=web.1 connect=8ms service=112ms status=200 bytes=5094
+2014-10-15T00:32:33.241364+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=a843abf4-1add-4db7-88d0-382ef83f2c0d fwd="121.247.250.208" dyno=web.1 connect=1ms service=11ms status=304 bytes=178
+2014-10-15T00:32:33.504575+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=47b21fa7-66d8-4b79-9d7c-790521892b6a fwd="121.247.250.208" dyno=web.1 connect=12ms service=67ms status=304 bytes=178
+2014-10-15T00:32:35.053317+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=a485f569-9887-465d-8021-860901f5a376 fwd="121.247.250.208" dyno=web.1 connect=17ms service=27ms status=304 bytes=178
+2014-10-15T00:32:54.528190+00:00 heroku[router]: at=info method=POST path="/signout" host=damp-reaches-6996.herokuapp.com request_id=10660480-9c87-4018-bb9b-a1eaa77f7397 fwd="121.247.250.208" dyno=web.1 connect=2ms service=99ms status=302 bytes=1184
+2014-10-15T00:32:54.437667+00:00 app[web.1]: Started DELETE "/signout" for 121.247.250.208 at 2014-10-15 00:32:54 +0000
+2014-10-15T00:32:54.437673+00:00 app[web.1]: Started DELETE "/signout" for 121.247.250.208 at 2014-10-15 00:32:54 +0000
+2014-10-15T00:32:54.441424+00:00 app[web.1]: Processing by SessionsController#destroy as HTML
+2014-10-15T00:32:54.441430+00:00 app[web.1]: Processing by SessionsController#destroy as HTML
+2014-10-15T00:32:54.441433+00:00 app[web.1]:   Parameters: {"authenticity_token"=>"G75F8eiiYAGGFdB2ydwB6bC6ERmUEWU38TUGKn/Ugmo="}
+2014-10-15T00:32:54.441456+00:00 app[web.1]:   Parameters: {"authenticity_token"=>"G75F8eiiYAGGFdB2ydwB6bC6ERmUEWU38TUGKn/Ugmo="}
+2014-10-15T00:32:54.462276+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-15T00:32:54.462284+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/
+2014-10-15T00:32:54.462450+00:00 app[web.1]: Completed 302 Found in 21ms (ActiveRecord: 13.1ms)
+2014-10-15T00:32:54.462468+00:00 app[web.1]: Completed 302 Found in 21ms (ActiveRecord: 13.1ms)
+2014-10-15T00:32:54.923134+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=afd878ee-7555-4ead-8d19-581bc3b3e0de fwd="121.247.250.208" dyno=web.1 connect=14ms service=27ms status=200 bytes=2486
+2014-10-15T00:32:54.891676+00:00 app[web.1]: Started GET "/" for 121.247.250.208 at 2014-10-15 00:32:54 +0000
+2014-10-15T00:32:54.898020+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T00:32:54.891684+00:00 app[web.1]: Started GET "/" for 121.247.250.208 at 2014-10-15 00:32:54 +0000
+2014-10-15T00:32:54.898844+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T00:32:54.903445+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-10-15T00:32:54.903822+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 2.0ms)
+2014-10-15T00:32:54.898848+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T00:32:54.903866+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 2.0ms)
+2014-10-15T00:32:54.893727+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:32:54.893774+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T00:32:54.899593+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T00:32:54.903338+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-10-15T00:32:54.898029+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T00:32:54.899598+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T00:32:59.534935+00:00 heroku[router]: at=info method=GET path="/signup" host=damp-reaches-6996.herokuapp.com request_id=9696ab7b-7afb-48cf-91e3-a11a326bc00e fwd="121.247.250.208" dyno=web.1 connect=13ms service=35ms status=200 bytes=3251
+2014-10-15T00:32:59.496263+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-15T00:32:59.496257+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-15T00:32:59.511157+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.4ms)
+2014-10-15T00:32:59.493620+00:00 app[web.1]: Started GET "/signup" for 121.247.250.208 at 2014-10-15 00:32:59 +0000
+2014-10-15T00:32:59.501315+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.4ms)
+2014-10-15T00:32:59.512821+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 1.9ms)
+2014-10-15T00:32:59.507109+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T00:32:59.512834+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 1.9ms)
+2014-10-15T00:32:59.507113+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T00:32:59.493592+00:00 app[web.1]: Started GET "/signup" for 121.247.250.208 at 2014-10-15 00:32:59 +0000
+2014-10-15T00:32:59.511150+00:00 app[web.1]:   Rendered layouts/_header.html.erb (3.4ms)
+2014-10-15T00:32:59.505736+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (6.8ms)
+2014-10-15T00:32:59.505741+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (6.8ms)
+2014-10-15T00:32:59.501309+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.4ms)
+2014-10-15T00:32:59.512560+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-10-15T00:32:59.512556+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-10-15T00:32:59.885444+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T00:32:59.853987+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-15T00:32:59.839249+00:00 app[web.1]: Started GET "/signup" for 121.247.250.208 at 2014-10-15 00:32:59 +0000
+2014-10-15T00:32:59.890366+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.7ms)
+2014-10-15T00:32:59.872863+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-15T00:32:59.872869+00:00 app[web.1]:   Rendered shared/_error_messages.html.erb (0.1ms)
+2014-10-15T00:32:59.891933+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:32:59.885442+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T00:32:59.892335+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 32.9ms | ActiveRecord: 3.4ms)
+2014-10-15T00:32:59.839240+00:00 app[web.1]: Started GET "/signup" for 121.247.250.208 at 2014-10-15 00:32:59 +0000
+2014-10-15T00:32:59.884488+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (19.7ms)
+2014-10-15T00:32:59.892275+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 32.9ms | ActiveRecord: 3.4ms)
+2014-10-15T00:32:59.853937+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-10-15T00:32:59.891871+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T00:32:59.884496+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (19.7ms)
+2014-10-15T00:32:59.891281+00:00 app[web.1]:   Rendered layouts/_header.html.erb (4.7ms)
+2014-10-15T00:32:59.902206+00:00 heroku[router]: at=info method=GET path="/signup" host=damp-reaches-6996.herokuapp.com request_id=f597eb5d-f67f-47d1-b3a5-2d06bcbb4c35 fwd="121.247.250.208" dyno=web.1 connect=8ms service=62ms status=304 bytes=892
+2014-10-15T00:33:00.610248+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=b4c0ff17-1e15-4aa2-8f88-3f007843d554 fwd="121.247.250.208" dyno=web.1 connect=1ms service=6ms status=304 bytes=178
+2014-10-15T00:33:00.725340+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=9e421bee-76c7-4eb7-9416-8c56c8567c64 fwd="121.247.250.208" dyno=web.1 connect=16ms service=20ms status=304 bytes=178
+2014-10-15T00:34:16.527888+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"G75F8eiiYAGGFdB2ydwB6bC6ERmUEWU38TUGKn/Ugmo=", "user"=>{"name"=>"bhardwaj", "email"=>"hrk@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-15T00:34:16.664970+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/users/2
+2014-10-15T00:34:16.664980+00:00 app[web.1]: Redirected to https://damp-reaches-6996.herokuapp.com/users/2
+2014-10-15T00:34:16.665177+00:00 app[web.1]: Completed 302 Found in 137ms (ActiveRecord: 13.6ms)
+2014-10-15T00:34:16.665201+00:00 app[web.1]: Completed 302 Found in 137ms (ActiveRecord: 13.6ms)
+2014-10-15T00:34:16.676611+00:00 heroku[router]: at=info method=POST path="/users" host=damp-reaches-6996.herokuapp.com request_id=c0c62296-a04f-4a1c-9560-55bde28bbf67 fwd="121.247.250.208" dyno=web.1 connect=2ms service=150ms status=302 bytes=1349
+2014-10-15T00:34:16.523751+00:00 app[web.1]: Started POST "/users" for 121.247.250.208 at 2014-10-15 00:34:16 +0000
+2014-10-15T00:34:16.523820+00:00 app[web.1]: Started POST "/users" for 121.247.250.208 at 2014-10-15 00:34:16 +0000
+2014-10-15T00:34:16.527644+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-15T00:34:16.527701+00:00 app[web.1]: Processing by UsersController#create as HTML
+2014-10-15T00:34:16.527836+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"G75F8eiiYAGGFdB2ydwB6bC6ERmUEWU38TUGKn/Ugmo=", "user"=>{"name"=>"bhardwaj", "email"=>"hrk@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+2014-10-15T00:34:20.596164+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=3f1cbf07-40a5-491c-a8f7-0a4bd72e6ca2 fwd="54.161.48.225" dyno=web.1 connect=1ms service=3ms status=301 bytes=234
+2014-10-15T00:34:20.653653+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=7bc6a8b3-297e-46d4-9a2a-0c9cad333cb3 fwd="54.161.48.225" dyno=web.1 connect=1ms service=30ms status=200 bytes=2486
+2014-10-15T00:34:20.627880+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T00:34:20.647239+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 1.5ms)
+2014-10-15T00:34:20.627887+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T00:34:20.647244+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 1.5ms)
+2014-10-15T00:34:20.635805+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+2014-10-15T00:34:20.635814+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+2014-10-15T00:34:20.639452+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T00:34:20.639459+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T00:34:20.643677+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:34:20.643684+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2014-10-15T00:34:20.625118+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:34:20 +0000
+2014-10-15T00:34:20.646965+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T00:34:20.625126+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 00:34:20 +0000
+2014-10-15T00:34:20.646971+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T01:46:10.814769+00:00 heroku[web.1]: State changed from up to down
+2014-10-15T01:46:10.814234+00:00 heroku[web.1]: Idling
+2014-10-15T01:46:16.269135+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-15T01:46:18.802492+00:00 app[web.1]: [2014-10-15 01:46:18] ERROR SignalException: SIGTERM
+2014-10-15T01:46:18.802496+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-15T01:46:26.760414+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-15T01:46:26.760623+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-15T01:46:28.493009+00:00 heroku[web.1]: Process exited with status 137
+2014-10-15T03:50:40.806055+00:00 heroku[web.1]: Unidling
+2014-10-15T03:50:40.807160+00:00 heroku[web.1]: Stat
+e changed from down to starting
+2014-10-15T03:50:43.310739+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 9391 -e production`
+2014-10-15T03:50:47.089382+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  WEBrick 1.3.1
+2014-10-15T03:50:47.089405+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-15T03:50:47.089771+00:00 app[web.1]: [2014-10-15 03:50:47] INFO  WEBrick::HTTPServer#start: pid=2 port=9391
+2014-10-15T03:50:47.507387+00:00 heroku[web.1]: State changed from starting to up
+2014-10-15T03:50:48.869097+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=afc64819-43b3-4e21-954d-23e75cafc070 fwd="54.161.48.225" dyno=web.1 connect=1ms service=6ms status=301 bytes=234
+2014-10-15T03:50:49.042560+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=fe5b9e3b-54e6-42fd-a8db-cd23d901ad23 fwd="54.161.48.225" dyno=web.1 connect=1ms service=147ms status=200 bytes=2486
+2014-10-15T03:50:48.901652+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:9391
+2014-10-15T03:50:48.901647+00:00 app[web.1]: => Booting WEBrick
+2014-10-15T03:50:48.901654+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-15T03:50:48.901655+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-15T03:50:48.901657+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 03:50:48 +0000
+2014-10-15T03:50:48.901663+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 03:50:48 +0000
+2014-10-15T03:50:48.968842+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T03:50:48.968850+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T03:50:49.001235+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+2014-10-15T03:50:49.001241+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+2014-10-15T03:50:49.025439+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T03:50:49.025445+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-10-15T03:50:49.029644+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-15T03:50:49.029669+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.5ms)
+2014-10-15T03:50:49.033006+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T03:50:49.033011+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-10-15T03:50:49.033292+00:00 app[web.1]: Completed 200 OK in 64ms (Views: 37.5ms | ActiveRecord: 23.7ms)
+2014-10-15T03:50:49.033297+00:00 app[web.1]: Completed 200 OK in 64ms (Views: 37.5ms | ActiveRecord: 23.7ms)
+2014-10-15T04:02:55.826483+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a74b5aa7-504b-478c-af16-88b5d9d5ce3e fwd="54.161.48.225" dyno=web.1 connect=2ms service=4ms status=301 bytes=234
+2014-10-15T04:02:55.890747+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=cc3f69ed-3a61-4def-b8d2-84044952a48f fwd="54.161.48.225" dyno=web.1 connect=1ms service=36ms status=200 bytes=2486
+2014-10-15T04:02:55.862753+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:02:55.864968+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:02:55.859301+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:02:55.864602+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:02:55.856270+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:02:55 +0000
+2014-10-15T04:02:55.865214+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 1.2ms)
+2014-10-15T04:02:55.862747+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:02:55.856281+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:02:55 +0000
+2014-10-15T04:02:55.864973+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:02:55.859306+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:02:55.863778+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T04:02:55.865240+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 1.2ms)
+2014-10-15T04:02:55.864606+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:02:55.863784+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-10-15T04:19:30.712283+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=a76bd0a0-afba-4909-863b-db9acd0b5cc4 fwd="54.161.48.225" dyno=web.1 connect=1ms service=4ms status=301 bytes=234
+2014-10-15T04:19:30.753404+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=2829156c-1819-4ea9-bbc4-26103b184f6b fwd="54.161.48.225" dyno=web.1 connect=2ms service=12ms status=200 bytes=2486
+2014-10-15T04:19:30.748937+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:19:30.748943+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+2014-10-15T04:19:30.749865+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:19:30.749871+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:19:30.750736+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:19:30.750741+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-10-15T04:19:30.742879+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:19:30 +0000
+2014-10-15T04:19:30.751162+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:19:30.742843+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:19:30 +0000
+2014-10-15T04:19:30.751167+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:19:30.745551+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:19:30.751407+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+2014-10-15T04:19:30.745558+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:19:30.751424+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.025332+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=7ecd35d4-9fe3-4138-9115-95d80547835c fwd="54.161.48.225" dyno=web.1 connect=1ms service=2ms status=301 bytes=234
+2014-10-15T04:28:49.059711+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:28:49.059717+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-10-15T04:28:49.058835+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+2014-10-15T04:28:49.055927+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:28:49.058829+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+2014-10-15T04:28:49.060501+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T04:28:49.055932+00:00 app[web.1]: Processing by StaticPagesController#home as */*
+2014-10-15T04:28:49.053791+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:28:49 +0000
+2014-10-15T04:28:49.060893+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:28:49.060898+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-10-15T04:28:49.061176+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.061181+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+2014-10-15T04:28:49.060506+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-10-15T04:28:49.053865+00:00 app[web.1]: Started GET "/" for 54.161.48.225 at 2014-10-15 04:28:49 +0000
+2014-10-15T04:28:49.063725+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=4c5969e0-582e-48d1-8a53-72baacd838f6 fwd="54.161.48.225" dyno=web.1 connect=1ms service=11ms status=200 bytes=2486
+2014-10-15T05:41:16.936823+00:00 heroku[web.1]: Idling
+2014-10-15T05:41:16.937335+00:00 heroku[web.1]: State changed from up to down
+2014-10-15T05:41:19.386778+00:00 app[web.1]: [2014-10-15 05:41:19] ERROR SignalException: SIGTERM
+2014-10-15T05:41:19.386783+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-10-15T05:41:18.904049+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-10-15T05:41:28.820358+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-10-15T05:41:28.820576+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-10-15T05:41:29.996859+00:00 heroku[web.1]: Process exited with status 137
+2014-10-15T06:19:48.018808+00:00 heroku[web.1]: Unidling
+2014-10-15T06:19:48.018808+00:00 heroku[web.1]: State changed from down to starting
+2014-10-15T06:19:52.337066+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 16296 -e production`
+2014-10-15T06:19:56.569049+00:00 app[web.1]: [2014-10-15 06:19:56] INFO  WEBrick 1.3.1
+2014-10-15T06:19:56.569598+00:00 app[web.1]: [2014-10-15 06:19:56] INFO  WEBrick::HTTPServer#start: pid=2 port=16296
+2014-10-15T06:19:56.569072+00:00 app[web.1]: [2014-10-15 06:19:56] INFO  ruby 1.9.3 (2014-05-14) [x86_64-linux]
+2014-10-15T06:19:57.043701+00:00 heroku[web.1]: State changed from starting to up
+2014-10-15T06:19:58.076163+00:00 app[web.1]: => Booting WEBrick
+2014-10-15T06:19:58.076167+00:00 app[web.1]: => Rails 4.0.8 application starting in production on http://0.0.0.0:16296
+2014-10-15T06:19:58.076169+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-10-15T06:19:58.076177+00:00 app[web.1]: Started GET "/" for 1.39.15.63 at 2014-10-15 06:19:58 +0000
+2014-10-15T06:19:58.076170+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-10-15T06:19:58.076172+00:00 app[web.1]: Started GET "/" for 1.39.15.63 at 2014-10-15 06:19:58 +0000
+2014-10-15T06:19:58.438052+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T06:19:58.438065+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-10-15T06:19:58.909104+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-6996.herokuapp.com request_id=fbb9d276-e36a-441a-93ff-47e3e088b1b8 fwd="1.39.15.63" dyno=web.1 connect=1ms service=836ms status=200 bytes=2438
+2014-10-15T06:19:58.852522+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+2014-10-15T06:19:58.900274+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T06:19:58.900282+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.4ms)
+2014-10-15T06:19:58.903018+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.1ms)
+2014-10-15T06:19:58.903029+00:00 app[web.1]:   Rendered layouts/_header.html.erb (2.1ms)
+2014-10-15T06:19:58.904876+00:00 app[web.1]: Completed 200 OK in 467ms (Views: 56.3ms | ActiveRecord: 406.6ms)
+2014-10-15T06:19:58.904531+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-10-15T06:19:58.852533+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+2014-10-15T06:19:58.904537+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-10-15T06:19:58.904871+00:00 app[web.1]: Completed 200 OK in 467ms (Views: 56.3ms | ActiveRecord: 406.6ms)
+2014-10-15T06:19:59.721687+00:00 heroku[router]: at=info method=GET path="/assets/application-4962059d8f80f9bb096692bacc29c4e8.css" host=damp-reaches-6996.herokuapp.com request_id=1d550565-9fa0-455e-a0c6-cda5e25c8753 fwd="1.39.15.63" dyno=web.1 connect=1ms service=3ms status=304 bytes=178
+2014-10-15T06:19:59.738540+00:00 heroku[router]: at=info method=GET path="/assets/application-eeb856e3fe2c8f879c91d0e81d59cb40.js" host=damp-reaches-6996.herokuapp.com request_id=88a982f2-5c64-43a8-950b-94755b8daf9a fwd="1.39.15.63" dyno=web.1 connect=3ms service=3ms status=304 bytes=178
+2014-10-15T06:20:00.902323+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-reaches-6996.herokuapp.com request_id=e8c7abfe-c820-4ab4-803a-a6544a03d724 fwd="1.39.15.63" dyno=web.1 connect=4ms service=9ms status=304 bytes=178
