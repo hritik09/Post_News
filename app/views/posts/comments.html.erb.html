@@ -1,0 +1,14 @@
+<% title @post.name %>
+ 
+<% for comment in @post.comments %>
+<div class="comment">
+  <span class="left"><%= link_to comment.user.username, user_url(comment.user) %><br /><%= link_to "Edit", edit_comment_path(comment) %><br /><%= link_to "Delete", comment, :confirm => 'Are you sute?', :method => :delete %></span>
+  <span class="right"><%= comment.content %></span>
+</div>
+<% end %>
+ 
+<p>
+  <%= link_to "Reply", "#{new_comment_path}?post=#{@post.id}" %> |
+  <%= link_to "Destroy post", @post, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", forum_path(@post.forum_id) %>
+</p>

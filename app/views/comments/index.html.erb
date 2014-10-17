@@ -1,0 +1,8 @@
+<h4>Listing comments for <%= @post.title %> </h4>
+<% unless @comments.blank? %>
+  <%= render @comments %>
+<% end %>
+<br>
+
+<%= link_to 'New Comment', new_comment_path(@post.id) %> |
+<%= link_to "Back", root_path %>

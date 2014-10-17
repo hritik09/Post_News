@@ -5,4 +5,5 @@
       Posted <%= time_ago_in_words(read_feed_item.created_at) %> ago.
     </span>
     <%= link_to "show", read_feed_item, remote: true, data: {id: read_feed_item.id} %>
+    <%= link_to "comments", comments_path(read_feed_item.id) , method: :get %>
 </li>
